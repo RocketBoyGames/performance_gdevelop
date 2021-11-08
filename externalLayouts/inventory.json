@@ -1,0 +1,1344 @@
+{
+  "associatedLayout": "bedroom",
+  "name": "inventory",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_background",
+      "persistentUuid": "cc041b7c-1b2a-4a96-b469-276889b34e75",
+      "width": 0,
+      "x": 640,
+      "y": 394,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "863fd070-dcf3-42d4-b19e-a255b47e9c18",
+      "width": 0,
+      "x": 427,
+      "y": 612,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 25
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "de458f3c-3034-4309-8d74-1c9b998f4f73",
+      "width": 0,
+      "x": 512,
+      "y": 612,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 26
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "221316a6-159e-44c1-b0a0-f2b514fac37b",
+      "width": 0,
+      "x": 597,
+      "y": 612,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 27
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "1c74122e-3a08-4d7b-ad44-bfd2de37a953",
+      "width": 0,
+      "x": 427,
+      "y": 694,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 29
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "f9559489-4e16-4344-b45d-877ce83a0a4c",
+      "width": 0,
+      "x": 427,
+      "y": 776,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 33
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "23fbcbbf-65f1-46a7-88b7-a5ffbdfaa0aa",
+      "width": 0,
+      "x": 512,
+      "y": 694,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 30
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "faca5bd4-9b0c-4d20-b488-3a39c9682007",
+      "width": 0,
+      "x": 512,
+      "y": 776,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 34
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "ac8e4f1e-55c0-46b3-952b-3828a8b250cf",
+      "width": 0,
+      "x": 767,
+      "y": 446,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 28
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "07d3d8f1-f78b-405e-be00-0c80b038ac1a",
+      "width": 0,
+      "x": 597,
+      "y": 694,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 31
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "23208701-0b70-41f6-9ace-af7f87e0df0b",
+      "width": 0,
+      "x": 597,
+      "y": 774,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 35
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "79dee532-acb6-4276-86ce-ad4ea7b55533",
+      "width": 0,
+      "x": 767,
+      "y": 366,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 32
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "a660379a-c3bc-471b-9eb6-762257a7a01a",
+      "width": 0,
+      "x": 682,
+      "y": 446,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 36
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "d20d7fc7-34f2-4183-a6fb-be556bbf97b9",
+      "width": 0,
+      "x": 860,
+      "y": 332,
+      "zOrder": 14,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 34
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "arrowUp"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "bebac5a6-e1bc-4fd8-948b-0c811cee8251",
+      "width": 0,
+      "x": 860,
+      "y": 415,
+      "zOrder": 15,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 31
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "arrowDown"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "3f3a3feb-6dd5-4f87-8e7f-8affa9df646a",
+      "width": 0,
+      "x": 418,
+      "y": 541,
+      "zOrder": 16,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 40
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "1940f903-5b7e-466b-89fd-50fb5f85ed1e",
+      "width": 0,
+      "x": 520,
+      "y": 541,
+      "zOrder": 17,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 37
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "a8a70790-b897-4a90-b28e-f327ea5e6fcf",
+      "width": 0,
+      "x": 686,
+      "y": 541,
+      "zOrder": 18,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 43
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "b97c67c4-786a-4cbd-9c25-2e9d902622f7",
+      "width": 0,
+      "x": 682,
+      "y": 1104,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 58
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "b01e3bfe-5c93-4cd5-b45f-9ef0d61d05bc",
+      "width": 0,
+      "x": 597,
+      "y": 1104,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 57
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "9b8f3677-26b9-46e3-b3f9-ea9f89d7c846",
+      "width": 0,
+      "x": 512,
+      "y": 1104,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 56
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "db15d5ff-14cd-408b-9286-02ed8d1debba",
+      "width": 0,
+      "x": 427,
+      "y": 1104,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 54
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "c9e3fac0-51f8-40b9-a8d6-d10a6fd89aba",
+      "width": 0,
+      "x": 427,
+      "y": 284,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "3416a7e5-3517-43cf-83a1-3e78a595b34e",
+      "width": 0,
+      "x": 512,
+      "y": 284,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "015a5317-16af-448d-bd12-aa1a826f5a63",
+      "width": 0,
+      "x": 597,
+      "y": 284,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "c47417dd-1741-4a14-89f6-921e5bc2b448",
+      "width": 0,
+      "x": 682,
+      "y": 284,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 59
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "13f62262-3080-41a9-a292-a81eec3ca6f8",
+      "width": 0,
+      "x": 597,
+      "y": 366,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 61
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "46dfddd3-42ea-4eff-92ae-ec5a0c31394b",
+      "width": 0,
+      "x": 512,
+      "y": 366,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 15
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "71002969-6b3b-4394-9373-03b1085a4d5f",
+      "width": 0,
+      "x": 427,
+      "y": 366,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 60
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "fe9845bc-b5c3-4da6-8def-8fdaa53656fa",
+      "width": 0,
+      "x": 767,
+      "y": 284,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 13
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "b0fe3bde-fbb9-4868-8cea-3fe256320e65",
+      "width": 0,
+      "x": 427,
+      "y": 448,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 17
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "d69a7ca9-07ad-4480-b910-7d26f8aae29d",
+      "width": 0,
+      "x": 512,
+      "y": 448,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 62
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "f85a32b8-27aa-4e9b-8775-2948add0bd5d",
+      "width": 0,
+      "x": 597,
+      "y": 446,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 19
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "c7e0e7e4-d4a1-4989-9c49-d171cd8cf2f6",
+      "width": 0,
+      "x": 682,
+      "y": 366,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 20
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "bc87cec8-ff05-4034-9c34-095b34558c47",
+      "width": 0,
+      "x": 767,
+      "y": 530,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 24
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "f2bb31c7-2401-4410-bf7d-d2660bacf25e",
+      "width": 0,
+      "x": 597,
+      "y": 530,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 23
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "79a54ea4-18f0-4914-a292-22fc73120cc3",
+      "width": 0,
+      "x": 512,
+      "y": 530,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 22
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "40ef97c9-5990-40b5-990c-0c74994e27c9",
+      "width": 0,
+      "x": 427,
+      "y": 530,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 21
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 249,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "inventory_mask",
+      "persistentUuid": "7156606b-bf76-4991-90a0-bcb9014569c8",
+      "width": 418,
+      "x": 425,
+      "y": 278,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "a449ba94-539d-4414-bab0-83e379691625",
+      "width": 0,
+      "x": 427,
+      "y": 858,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 38
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "2b713ee2-403b-47d2-a23e-242bf626d190",
+      "width": 0,
+      "x": 512,
+      "y": 858,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 39
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "1a05adac-56ec-4a18-a6b3-b01eb50c1ed9",
+      "width": 0,
+      "x": 597,
+      "y": 858,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 40
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "50138a0a-b1eb-40ed-92c6-2c3475e39870",
+      "width": 0,
+      "x": 427,
+      "y": 1186,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 42
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "8df678d8-a3f6-4965-86a1-d5c231777106",
+      "width": 0,
+      "x": 427,
+      "y": 940,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 43
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "6cf2896a-0890-4091-8762-2c2c37f97eb8",
+      "width": 0,
+      "x": 512,
+      "y": 940,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 44
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "f1e54375-116b-4ac8-bfa9-f72413739e7b",
+      "width": 0,
+      "x": 597,
+      "y": 940,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 45
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "64952968-7980-4359-b436-6d817dd028fb",
+      "width": 0,
+      "x": 682,
+      "y": 530,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 46
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "716906cf-945e-4620-88b8-cb889eaee8c3",
+      "width": 0,
+      "x": 427,
+      "y": 1022,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 48
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "5c2a7f6b-3aaa-49bd-a369-9e640c9e8070",
+      "width": 0,
+      "x": 512,
+      "y": 1022,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 49
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "720b2168-0ccf-4df6-a12d-e3121ad87d29",
+      "width": 0,
+      "x": 597,
+      "y": 1022,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 50
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "aa9d74f7-6911-4f8d-8fd2-d1a7a38b5297",
+      "width": 0,
+      "x": 682,
+      "y": 1022,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 52
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "168ea1bc-1520-4239-800d-c8fb7fd597c5",
+      "width": 0,
+      "x": 682,
+      "y": 774,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 72
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "291ecf10-a56f-4eca-aa43-4bab84614699",
+      "width": 0,
+      "x": 767,
+      "y": 774,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 73
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "45a852ea-7164-4d04-b953-d49c4c82dd49",
+      "width": 0,
+      "x": 682,
+      "y": 858,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 74
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "0d3c5443-30cb-4d54-bbb6-e974d99b2f7b",
+      "width": 0,
+      "x": 767,
+      "y": 858,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 75
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "9c88223d-32bd-47e8-b53e-f8bb1e44c3a7",
+      "width": 0,
+      "x": 767,
+      "y": 1022,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 65
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "4ec15b24-05bf-472c-9af9-b14f239bffc8",
+      "width": 0,
+      "x": 767,
+      "y": 940,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 66
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "06024c82-ee84-41a2-bfa2-c6ae373091e0",
+      "width": 0,
+      "x": 682,
+      "y": 940,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 67
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "0dd6c0e9-dc04-4b57-8215-2aac846d34f3",
+      "width": 0,
+      "x": 767,
+      "y": 1104,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 63
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "5ba6c537-f23e-4403-b36f-31318df4cfcf",
+      "width": 0,
+      "x": 682,
+      "y": 612,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 68
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "6384f00e-732d-49bc-94b3-f04330cde0dc",
+      "width": 0,
+      "x": 767,
+      "y": 612,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 69
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "2155c9b8-f77f-467e-93c2-23b6c636b782",
+      "width": 0,
+      "x": 682,
+      "y": 694,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 70
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_slot",
+      "persistentUuid": "a7fe266d-5f5d-43cb-a44d-ecdc156269e4",
+      "width": 0,
+      "x": 767,
+      "y": 694,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 71
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.5000000152587968,
+    "windowMask": false
+  }
+}

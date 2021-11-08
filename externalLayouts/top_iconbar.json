@@ -1,0 +1,359 @@
+{
+  "associatedLayout": "bedroom",
+  "name": "top_iconbar",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "hungerThirst",
+      "persistentUuid": "42a86370-b9f7-4632-9b32-35ea069a74c7",
+      "width": 0,
+      "x": 30,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 120,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "69588f5e-edbd-453d-8638-c8cbb9589257",
+      "width": 134,
+      "x": 30,
+      "y": 48,
+      "zOrder": 12,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "walk"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "9bd1f6cd-2e72-4dd1-bf0e-c12c755ae7a3",
+      "width": 0,
+      "x": 166,
+      "y": 48,
+      "zOrder": 13,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "look"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "5c6dcac7-be31-4828-be42-f97cc3918fae",
+      "width": 0,
+      "x": 302,
+      "y": 48,
+      "zOrder": 14,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 7
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "use"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 123,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "c15a6176-ddf7-4f6a-a7ff-99f89a685bfb",
+      "width": 136,
+      "x": 438,
+      "y": 48,
+      "zOrder": 15,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 10
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "talk"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "eb1961af-57b1-4443-9a55-c2f1fa3a6a6e",
+      "width": 0,
+      "x": 574,
+      "y": 48,
+      "zOrder": 16,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 16
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "item"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "1fa34366-4932-479b-9fd1-49dd572b6156",
+      "width": 0,
+      "x": 710,
+      "y": 48,
+      "zOrder": 17,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 13
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "objects"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "a8a67ecd-0046-4a25-868b-95da40a46f56",
+      "width": 0,
+      "x": 846,
+      "y": 48,
+      "zOrder": 18,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 19
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "missions"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "9a2da56f-2775-4128-9b2f-898d840f7498",
+      "width": 0,
+      "x": 982,
+      "y": 48,
+      "zOrder": 19,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 22
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "options"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "8cd44c9b-8701-419f-9858-bc34f861858c",
+      "width": 0,
+      "x": 1118,
+      "y": 48,
+      "zOrder": 20,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 25
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "exit"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "51b46d47-2092-4410-bdda-a27ac57b9e80",
+      "width": 0,
+      "x": 582,
+      "y": 0,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "map"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "Cursor",
+      "persistentUuid": "8235593e-7fbe-4d78-b2d9-4bb9e6adb11a",
+      "width": 0,
+      "x": 649.3333129882812,
+      "y": 403,
+      "zOrder": 999999,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 171,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "IconBarHotspot",
+      "persistentUuid": "959f6180-0e61-4d3e-80a8-58d1d34ace14",
+      "width": 1243,
+      "x": 22,
+      "y": -3,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "buttons",
+      "persistentUuid": "a0f41a38-af2a-45eb-bf58-aa6a75624272",
+      "width": 0,
+      "x": 42,
+      "y": 606,
+      "zOrder": 1000000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "fullscreen"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.7499999725341815,
+    "windowMask": false
+  }
+}
