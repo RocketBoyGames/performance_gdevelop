@@ -279,25 +279,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "cursorManagement"
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "playerMovement"
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "top_iconbar"
+      "target": "game_settings"
     },
     {
       "disabled": false,
@@ -316,16 +298,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Cache"
-          },
-          "parameters": [
-            "hotspots"
-          ],
-          "subInstructions": []
-        },
         {
           "type": {
             "inverted": false,

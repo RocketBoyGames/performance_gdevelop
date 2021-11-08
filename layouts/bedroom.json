@@ -164,7 +164,7 @@
       "angle": 0,
       "customSize": true,
       "height": 90,
-      "layer": "",
+      "layer": "Hotspots",
       "locked": false,
       "name": "hotspots",
       "persistentUuid": "18ac1325-723c-44d7-bf52-7222aee159e9",
@@ -172,6 +172,22 @@
       "x": 13,
       "y": 654,
       "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "NewObject",
+      "persistentUuid": "697b476b-fa15-4494-8bcd-c45311587c6d",
+      "width": 0,
+      "x": 821,
+      "y": 142,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2553,6 +2569,46 @@
           ]
         }
       ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "NewObject2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "NewObject",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -2563,25 +2619,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "playerMovement"
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "top_iconbar"
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "cursorManagement"
+      "target": "game_settings"
     },
     {
       "disabled": false,
@@ -2600,16 +2638,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Cache"
-          },
-          "parameters": [
-            "hotspots"
-          ],
-          "subInstructions": []
-        },
         {
           "type": {
             "inverted": false,
@@ -2905,15 +2933,6 @@
       "conditions": [],
       "actions": [],
       "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "inventoryManagement"
     }
   ],
   "layers": [

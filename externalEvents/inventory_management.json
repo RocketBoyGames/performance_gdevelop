@@ -1,7 +1,7 @@
 {
   "associatedLayout": "bedroom",
   "lastChangeTimeStamp": 0,
-  "name": "inventoryManagement",
+  "name": "inventory_management",
   "events": [
     {
       "disabled": false,
