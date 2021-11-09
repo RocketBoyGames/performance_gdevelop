@@ -280,7 +280,7 @@
       "persistentUuid": "d20d7fc7-34f2-4183-a6fb-be556bbf97b9",
       "width": 0,
       "x": 860,
-      "y": 332,
+      "y": 317,
       "zOrder": 14,
       "numberProperties": [
         {
@@ -307,7 +307,7 @@
       "persistentUuid": "bebac5a6-e1bc-4fd8-948b-0c811cee8251",
       "width": 0,
       "x": 860,
-      "y": 415,
+      "y": 430,
       "zOrder": 15,
       "numberProperties": [
         {
@@ -343,7 +343,13 @@
         }
       ],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "inv_look"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -364,7 +370,13 @@
         }
       ],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "inv_select"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -385,7 +397,13 @@
         }
       ],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "button_name",
+          "type": "string",
+          "value": "inv_return"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -804,22 +822,6 @@
           "value": 21
         }
       ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 249,
-      "layer": "Iconbar",
-      "locked": false,
-      "name": "inventory_mask",
-      "persistentUuid": "7156606b-bf76-4991-90a0-bcb9014569c8",
-      "width": 418,
-      "x": 425,
-      "y": 278,
-      "zOrder": 19,
-      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -1326,6 +1328,22 @@
       ],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 239,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "inventory_mask",
+      "persistentUuid": "42c76f9e-999f-4950-950c-47153aff8eba",
+      "width": 411,
+      "x": 429,
+      "y": 282,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1338,7 +1356,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5000000152587968,
+    "zoomFactor": 1.0499999877929767,
     "windowMask": false
   }
 }

@@ -54,11 +54,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjet"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "Cursor",
-                "cursorMode",
+                "previousCursorMode",
                 "=",
                 "1"
               ],
@@ -67,11 +66,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjet"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "Cursor",
-                "previousCursorMode",
+                "cursorMode",
                 "=",
                 "1"
               ],
@@ -90,123 +88,9 @@
         {
           "type": {
             "inverted": false,
-            "value": "SourisSurObjet"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "IconBarHotspot",
-            "buttons",
-            "yes",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "Cursor",
-            "previousCursorMode",
-            "=",
-            "Cursor.Variable(cursorMode)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "Cursor",
-            "cursorMode",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "IconBarHotspot",
-            "buttons",
-            "yes",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeAnimation"
-          },
-          "parameters": [
-            "Cursor",
-            "=",
-            "Cursor.Variable(previousCursorMode)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "Cursor",
-            "cursorMode",
-            "=",
-            "Cursor.Variable(previousCursorMode)"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "Cursor",
             "cursorMode",
             "=",
             "0"
@@ -245,10 +129,9 @@
         {
           "type": {
             "inverted": false,
-            "value": "VarObjet"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "Cursor",
             "cursorMode",
             "=",
             "1"
@@ -287,10 +170,9 @@
         {
           "type": {
             "inverted": false,
-            "value": "VarObjet"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "Cursor",
             "cursorMode",
             "=",
             "2"
@@ -329,10 +211,9 @@
         {
           "type": {
             "inverted": false,
-            "value": "VarObjet"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "Cursor",
             "cursorMode",
             "=",
             "3"
@@ -371,10 +252,9 @@
         {
           "type": {
             "inverted": false,
-            "value": "VarObjet"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "Cursor",
             "cursorMode",
             "=",
             "4"
@@ -413,10 +293,9 @@
         {
           "type": {
             "inverted": false,
-            "value": "VarObjet"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "Cursor",
             "cursorMode",
             "=",
             "5"
@@ -455,10 +334,9 @@
         {
           "type": {
             "inverted": false,
-            "value": "VarObjet"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "Cursor",
             "cursorMode",
             "=",
             "6"
@@ -510,7 +388,117 @@
       "events": [
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "IconbarHotspot",
+                "buttons",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "previousCursorMode",
+                "=",
+                "GlobalVariable(cursorMode)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "cursorMode",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "IconbarHotspot",
+                "buttons",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Cursor",
+                "=",
+                "GlobalVariable(previousCursorMode)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "cursorMode",
+                "=",
+                "GlobalVariable(previousCursorMode)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -556,10 +544,9 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjet"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "Cursor",
                 "cursorMode",
                 "+",
                 "1"
@@ -569,13 +556,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjet"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "Cursor",
                 "previousCursorMode",
                 "=",
-                "Cursor.Variable(cursorMode)"
+                "GlobalVariable(cursorMode)"
               ],
               "subInstructions": []
             }
@@ -589,14 +575,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     ">",
                     "4"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -604,10 +597,9 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "0"
@@ -617,10 +609,9 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "previousCursorMode",
                     "=",
                     "0"
@@ -638,14 +629,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "0"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -672,14 +670,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "1"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -706,14 +711,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "2"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -740,14 +752,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "3"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -774,14 +793,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "4"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -804,7 +830,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -830,26 +856,24 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjet"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "Cursor",
                 "cursorMode",
-                "+",
-                "-1"
+                "-",
+                "1"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjet"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "Cursor",
                 "previousCursorMode",
                 "=",
-                "Cursor.Variable(cursorMode)"
+                "GlobalVariable(cursorMode)"
               ],
               "subInstructions": []
             }
@@ -859,26 +883,25 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "<",
                     "0"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -886,10 +909,9 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "4"
@@ -899,10 +921,9 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "previousCursorMode",
                     "=",
                     "4"
@@ -920,14 +941,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "0"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -954,14 +982,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "1"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -988,14 +1023,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "2"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -1022,14 +1064,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "3"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -1056,14 +1105,21 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Cursor",
                     "cursorMode",
                     "=",
                     "4"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -1085,6 +1141,14 @@
           ]
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ]
 }

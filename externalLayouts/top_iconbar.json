@@ -310,12 +310,12 @@
       "height": 171,
       "layer": "Iconbar",
       "locked": false,
-      "name": "IconBarHotspot",
+      "name": "IconbarHotspot",
       "persistentUuid": "959f6180-0e61-4d3e-80a8-58d1d34ace14",
       "width": 1243,
-      "x": 22,
-      "y": -3,
-      "zOrder": 30,
+      "x": 17,
+      "y": -4,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -329,8 +329,8 @@
       "name": "buttons",
       "persistentUuid": "a0f41a38-af2a-45eb-bf58-aa6a75624272",
       "width": 0,
-      "x": 42,
-      "y": 606,
+      "x": 34,
+      "y": 649,
       "zOrder": 1000000,
       "numberProperties": [],
       "stringProperties": [],
@@ -353,7 +353,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7499999725341815,
+    "zoomFactor": 0.5499999847412127,
     "windowMask": false
   }
 }

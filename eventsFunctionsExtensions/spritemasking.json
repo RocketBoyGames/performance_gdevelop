@@ -77,7 +77,7 @@
           "inlineCode": "const maskObject = eventsFunctionContext.getObjects(\"Mask\")[0];\nif (!maskObject) return;\n\nconst maskedObjects = eventsFunctionContext.getObjects(\"Masked\");\nfor (const maskedObject of maskedObjects) {\n    const maskedRenderer = maskedObject.getRendererObject(); \n    maskedRenderer.mask = maskObject.getRendererObject();\n}\n\n",
           "parameterObjects": "masked",
           "useStrict": true,
-          "eventsSheetExpanded": true
+          "eventsSheetExpanded": false
         }
       ],
       "parameters": [

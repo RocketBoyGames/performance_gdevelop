@@ -37,10 +37,9 @@
         {
           "type": {
             "inverted": false,
-            "value": "VarObjet"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "Cursor",
             "cursorMode",
             "=",
             "1"
