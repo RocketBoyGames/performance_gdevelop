@@ -11,6 +11,23 @@
         {
           "type": {
             "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
             "value": "LayerVisible"
           },
           "parameters": [
@@ -20,21 +37,7 @@
           "subInstructions": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SpriteMasking::Mask"
-          },
-          "parameters": [
-            "",
-            "inventory_slot",
-            "inventory_mask",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "colorB": 228,
@@ -42,7 +45,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1079,6 +1082,78 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "buttons",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "inventory_slot",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "inventory_background",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "visibleGUIname",
+                "=",
+                "\"iconbar\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     }

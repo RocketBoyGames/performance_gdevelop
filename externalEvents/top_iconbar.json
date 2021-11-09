@@ -19,7 +19,18 @@
           "subInstructions": []
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "IconbarHotspot"
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": []
     },
     {

@@ -281,7 +281,7 @@
       "width": 0,
       "x": 860,
       "y": 317,
-      "zOrder": 14,
+      "zOrder": 3,
       "numberProperties": [
         {
           "name": "animation",
@@ -308,7 +308,7 @@
       "width": 0,
       "x": 860,
       "y": 430,
-      "zOrder": 15,
+      "zOrder": 3,
       "numberProperties": [
         {
           "name": "animation",
@@ -335,7 +335,7 @@
       "width": 0,
       "x": 418,
       "y": 541,
-      "zOrder": 16,
+      "zOrder": 3,
       "numberProperties": [
         {
           "name": "animation",
@@ -362,7 +362,7 @@
       "width": 0,
       "x": 520,
       "y": 541,
-      "zOrder": 17,
+      "zOrder": 3,
       "numberProperties": [
         {
           "name": "animation",
@@ -389,7 +389,7 @@
       "width": 0,
       "x": 686,
       "y": 541,
-      "zOrder": 18,
+      "zOrder": 3,
       "numberProperties": [
         {
           "name": "animation",
@@ -1340,7 +1340,7 @@
       "width": 411,
       "x": 429,
       "y": 282,
-      "zOrder": -5,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

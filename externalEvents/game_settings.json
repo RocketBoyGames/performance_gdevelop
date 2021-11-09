@@ -12,10 +12,13 @@
         {
           "type": {
             "inverted": false,
-            "value": "Cache"
+            "value": "SpriteMasking::Mask"
           },
           "parameters": [
-            "IconbarHotspot"
+            "",
+            "inventory_slot",
+            "inventory_mask",
+            ""
           ],
           "subInstructions": []
         }
@@ -248,7 +251,7 @@
           },
           "parameters": [
             "Player",
-            "Player",
+            "collisions",
             ""
           ],
           "subInstructions": []
@@ -379,6 +382,14 @@
                 "True"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -411,6 +422,14 @@
                 "isFullscreen",
                 "False"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -462,6 +481,14 @@
             "=",
             "\"iconbar\""
           ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -547,6 +574,14 @@
             "=",
             "\"inventory\""
           ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -654,7 +689,7 @@
       "target": "inventory_management"
     },
     {
-      "disabled": false,
+      "disabled": true,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
