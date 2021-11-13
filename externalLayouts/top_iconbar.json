@@ -331,7 +331,7 @@
       "width": 149,
       "x": 34,
       "y": 649,
-      "zOrder": 1000000,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -353,7 +353,39 @@
       "width": 138,
       "x": 43,
       "y": 659,
-      "zOrder": 1000001,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "NarratorBox",
+      "locked": false,
+      "name": "narrator_text_box",
+      "persistentUuid": "492786d6-b683-451c-9c6e-d014df64a31a",
+      "width": 400,
+      "x": 442,
+      "y": 210,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 29,
+      "layer": "NarratorBox",
+      "locked": false,
+      "name": "narrator_text",
+      "persistentUuid": "7e2a2219-8fc2-4b60-b553-fcc31918ff20",
+      "width": 600,
+      "x": 340,
+      "y": 236,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -369,7 +401,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5999999816894549,
+    "zoomFactor": 1.099999951171877,
     "windowMask": false
   }
 }

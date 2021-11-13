@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.509999966430664,
+    "zoomFactor": 0.6099999603271484,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -130,7 +130,7 @@
       "locked": false,
       "name": "hotspots",
       "persistentUuid": "98079c76-164d-4a60-8d3b-24373d94746a",
-      "width": 251,
+      "width": 195,
       "x": 1027,
       "y": 261,
       "zOrder": 23,
@@ -141,6 +141,16 @@
           "name": "name",
           "type": "string",
           "value": "door"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Usa la puerta"
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 250
         }
       ]
     },
@@ -179,24 +189,18 @@
           "name": "name",
           "type": "string",
           "value": "bed"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": "La cama es muy cómoda"
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 258
         }
       ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 65,
-      "layer": "NarratorBox",
-      "locked": false,
-      "name": "itemDescription",
-      "persistentUuid": "1a66477f-f694-415f-b561-62c18cbcd393",
-      "width": 480,
-      "x": 386,
-      "y": 51,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     },
     {
       "angle": 0,
@@ -229,8 +233,8 @@
       "name": "objectTest",
       "persistentUuid": "217bd423-8aa4-4c32-bf6b-d18c430fe5d0",
       "width": 0,
-      "x": 203,
-      "y": 411,
+      "x": 101,
+      "y": 456,
       "zOrder": 39,
       "numberProperties": [
         {
@@ -256,8 +260,8 @@
       "name": "objectTest",
       "persistentUuid": "0cbb29eb-fd4e-4691-ab60-e8f545db5062",
       "width": 0,
-      "x": 294,
-      "y": 407,
+      "x": 15,
+      "y": 459,
       "zOrder": 40,
       "numberProperties": [
         {
@@ -304,15 +308,175 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 123,
-      "layer": "NarratorBox",
+      "height": 176,
+      "layer": "Hotspots",
       "locked": false,
-      "name": "narrator_text",
-      "persistentUuid": "6b1fc763-02bb-41d8-a6aa-43e28ebd5290",
-      "width": 554,
-      "x": 349,
-      "y": 23,
-      "zOrder": 1,
+      "name": "hotspots",
+      "persistentUuid": "7851c809-f298-4dd9-858e-23b39e4ffc76",
+      "width": 269,
+      "x": 314,
+      "y": 155,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "window"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Qué lindo día"
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 261
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 187,
+      "layer": "Hotspots",
+      "locked": false,
+      "name": "hotspots",
+      "persistentUuid": "c412f119-28ac-45f6-bba2-90285e430dc4",
+      "width": 88,
+      "x": 71,
+      "y": 171,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "picture"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Es una pintura del castillo"
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 260
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 71,
+      "layer": "Hotspots",
+      "locked": false,
+      "name": "hotspots",
+      "persistentUuid": "77215ee9-d32f-476c-85bc-96463fea2c3a",
+      "width": 593,
+      "x": 696,
+      "y": 656,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "books"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Tienes muchos libros"
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 256
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 266,
+      "layer": "Hotspots",
+      "locked": false,
+      "name": "hotspots",
+      "persistentUuid": "95211ad9-e1f4-495f-bb1a-98d6810d2ff3",
+      "width": 212,
+      "x": 768,
+      "y": 229,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "wardrobe"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Tu ropa está en el armario"
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 244
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 104,
+      "layer": "Hotspots",
+      "locked": false,
+      "name": "hotspots",
+      "persistentUuid": "0430ea8f-c19e-466b-b8a7-a1e9b6baf0cb",
+      "width": 301,
+      "x": 316,
+      "y": 392,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "drawer"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Es tu cajón"
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 241
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "itemDescription",
+      "persistentUuid": "bd709878-bef9-4454-ba4f-24ccc7f944dc",
+      "width": 0,
+      "x": 259,
+      "y": 549,
+      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -529,22 +693,6 @@
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "bottomMargin": 40,
-      "height": 40,
-      "leftMargin": 40,
-      "name": "narrator_text",
-      "rightMargin": 40,
-      "tags": "",
-      "texture": "assets\\interface\\narrator_windows_text.png",
-      "tiled": false,
-      "topMargin": 40,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 40,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "events": [
@@ -716,6 +864,18 @@
                 "name",
                 "=",
                 "\"door\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "cursorMode",
+                "=",
+                "1"
               ],
               "subInstructions": []
             },
@@ -1444,17 +1604,171 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "itemDescription",
+                "=",
+                "GlobalVariableString(narrator_speech)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
     },
     {
-      "disabled": false,
+      "disabled": true,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "cursorMode",
+            "=",
+            "2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Fullscreen",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "hotspots",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Layer"
+          },
+          "parameters": [
+            "Cursor",
+            "\"Cursor\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "visibleGUIname",
+            "=",
+            "\"narratorbox\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "narrator_text",
+            "=",
+            "hotspots.VariableString(description)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "hotspots",
+                "name",
+                "=",
+                "\"window\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\speech\\Narrator\\NARR1.mp3",
+                "3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     }
   ],
   "layers": [

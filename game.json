@@ -2907,7 +2907,7 @@
         "userAdded": true
       },
       {
-        "file": "assets/PressStart2P-Regular.ttf",
+        "file": "assets/fonts/PressStart2P-Regular.ttf",
         "kind": "font",
         "metadata": "",
         "name": "assets\\PressStart2P-Regular.ttf",
@@ -2920,6 +2920,151 @@
         "metadata": "",
         "name": "assets\\interface\\narrator_windows_text.png",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/DotGothic16-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\DotGothic16-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/VT323-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\VT323-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\PressStart2P-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/MonkeyIsland.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\MonkeyIsland.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR9.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR9.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR260.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR260.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR261.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR261.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR10.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR10.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR11.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR11.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR12.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR12.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR15.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR15.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR241.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR241.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR244.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR244.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR250.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR250.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR256.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR256.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR258.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR258.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       }
     ],
@@ -8200,6 +8345,16 @@
           "name": "name",
           "type": "string",
           "value": "none"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -12914,7 +13069,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "text width",
       "font": "assets\\PressStart2P-Regular.ttf",
       "characterSize": 30,
       "color": {
@@ -13001,6 +13156,42 @@
         "b": 0,
         "g": 0,
         "r": 0
+      }
+    },
+    {
+      "bottomMargin": 40,
+      "height": 40,
+      "leftMargin": 40,
+      "name": "narrator_text_box",
+      "rightMargin": 40,
+      "tags": "",
+      "texture": "assets\\interface\\narrator_windows_text.png",
+      "tiled": false,
+      "topMargin": 40,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 40,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "narrator_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "narrator_text",
+      "font": "assets\\fonts\\MonkeyIsland.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     }
   ],
@@ -13096,6 +13287,11 @@
       "name": "active_inventory",
       "type": "string",
       "value": "\"\""
+    },
+    {
+      "name": "narrator_speech",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -13152,6 +13348,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/load_inventory"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/narrator_speech"
     }
   ],
   "eventsFunctionsExtensions": [

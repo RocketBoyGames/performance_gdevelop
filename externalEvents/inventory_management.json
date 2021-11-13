@@ -116,7 +116,7 @@
     },
     {
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -257,7 +257,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2060,9 +2060,21 @@
                         "value": "TextObject::String"
                       },
                       "parameters": [
-                        "itemDescription",
+                        "narrator_text",
                         "=",
                         "inventory_slot.VariableString(item_description)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "narrator_speech",
+                        "=",
+                        "inventory_slot.Variable(narrator_speech)"
                       ],
                       "subInstructions": []
                     }
@@ -2082,7 +2094,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Remove from inventory",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2419,7 +2431,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Collect items and add to inventory",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2818,7 +2830,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Items description",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2861,6 +2873,19 @@
                         "item_description",
                         "=",
                         "\"Es la llave para abrir tu cofre\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "inventory_slot",
+                        "narrator_speech",
+                        "=",
+                        "9"
                       ],
                       "subInstructions": []
                     }
@@ -2907,6 +2932,19 @@
                         "\"¡Para Pedro - Número uno - el mejor aventurero del mundo!\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "inventory_slot",
+                        "narrator_speech",
+                        "=",
+                        "11"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -2949,6 +2987,19 @@
                         "item_description",
                         "=",
                         "\"Es tu dinero\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "inventory_slot",
+                        "narrator_speech",
+                        "=",
+                        "12"
                       ],
                       "subInstructions": []
                     }
@@ -2995,6 +3046,19 @@
                         "\"La botella está vacía\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "inventory_slot",
+                        "narrator_speech",
+                        "=",
+                        "10"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -3037,6 +3101,19 @@
                         "item_description",
                         "=",
                         "\"La botella está llena con agua\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "inventory_slot",
+                        "narrator_speech",
+                        "=",
+                        "15"
                       ],
                       "subInstructions": []
                     }
