@@ -662,6 +662,17 @@
       "visibility": true,
       "cameras": [],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 8757232,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 12415840,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "NarratorBox",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [

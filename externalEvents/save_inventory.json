@@ -19,7 +19,7 @@
       "comment2": ""
     },
     {
-      "disabled": true,
+      "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::ForEach",
       "object": "inventory_slot",
@@ -57,40 +57,6 @@
           "parameters": [
             "\"inventory_save\"",
             "\"numberofitems\" + ToString(inventory_slot.Variable(ID))",
-            "Inventory::Count(\"player_inventory\", inventory_slot.VariableString(item_name))"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "inventory_slot",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobalTxt"
-          },
-          "parameters": [
-            "inventory_items_info[ToString(inventory_slot.Variable(ID))].item_name",
-            "=",
-            "inventory_slot.VariableString(item_name)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "inventory_items_info[ToString(inventory_slot.Variable(ID))].numberofitems",
-            "=",
             "Inventory::Count(\"player_inventory\", inventory_slot.VariableString(item_name))"
           ],
           "subInstructions": []

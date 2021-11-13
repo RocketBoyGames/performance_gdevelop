@@ -183,13 +183,7 @@
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 1
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -205,13 +199,7 @@
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 2
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -227,13 +215,7 @@
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 3
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -249,13 +231,7 @@
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 4
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -271,13 +247,7 @@
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 5
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -293,13 +263,7 @@
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 6
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -315,13 +279,7 @@
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 7
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -337,13 +295,7 @@
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 8
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -359,13 +311,7 @@
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 9
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -381,13 +327,7 @@
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 10
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -403,13 +343,7 @@
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 11
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -425,13 +359,7 @@
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 12
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -447,13 +375,7 @@
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 13
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -469,13 +391,7 @@
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 14
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -491,13 +407,7 @@
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 15
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -513,13 +423,7 @@
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 16
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -535,13 +439,7 @@
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 17
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -557,13 +455,7 @@
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 18
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -579,13 +471,7 @@
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 19
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -601,13 +487,7 @@
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 20
-        }
-      ]
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -620,7 +500,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8999999969482498,
+    "zoomFactor": 0.6500000122070388,
     "windowMask": false
   }
 }

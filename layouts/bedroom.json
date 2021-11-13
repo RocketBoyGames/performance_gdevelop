@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5599999633789062,
+    "zoomFactor": 0.509999966430664,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -130,7 +130,7 @@
       "locked": false,
       "name": "hotspots",
       "persistentUuid": "98079c76-164d-4a60-8d3b-24373d94746a",
-      "width": 300,
+      "width": 251,
       "x": 1027,
       "y": 261,
       "zOrder": 23,
@@ -174,20 +174,26 @@
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "bed"
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": true,
       "height": 65,
-      "layer": "Inventory",
+      "layer": "NarratorBox",
       "locked": false,
       "name": "itemDescription",
       "persistentUuid": "1a66477f-f694-415f-b561-62c18cbcd393",
-      "width": 726,
-      "x": 282,
-      "y": 60,
-      "zOrder": 28,
+      "width": 480,
+      "x": 386,
+      "y": 51,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -294,6 +300,22 @@
           "value": "yellow_key"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 123,
+      "layer": "NarratorBox",
+      "locked": false,
+      "name": "narrator_text",
+      "persistentUuid": "6b1fc763-02bb-41d8-a6aa-43e28ebd5290",
+      "width": 554,
+      "x": 349,
+      "y": 23,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -488,6 +510,38 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "NewObject2",
+      "rightMargin": 0,
+      "tags": "",
+      "texture": "",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "bottomMargin": 40,
+      "height": 40,
+      "leftMargin": 40,
+      "name": "narrator_text",
+      "rightMargin": 40,
+      "tags": "",
+      "texture": "assets\\interface\\narrator_windows_text.png",
+      "tiled": false,
+      "topMargin": 40,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 40,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -814,7 +868,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Testing stuff/functions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1393,6 +1447,14 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [
@@ -1458,6 +1520,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Cursor",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8721344,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 12366080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "NarratorBox",
       "visibility": true,
       "cameras": [],
       "effects": []

@@ -2912,6 +2912,15 @@
         "metadata": "",
         "name": "assets\\PressStart2P-Regular.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/narrator_windows_text.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\narrator_windows_text.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -10515,13 +10524,7 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "ID",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [],
       "animations": [
