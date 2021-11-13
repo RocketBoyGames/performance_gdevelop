@@ -94,22 +94,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 66,
-      "layer": "",
-      "locked": false,
-      "name": "collisions",
-      "persistentUuid": "77ad73a0-a733-4aa0-a921-74f1e6c0edaf",
-      "width": 171,
-      "x": 718,
-      "y": 431,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 239,
       "layer": "",
       "locked": false,
@@ -187,70 +171,6 @@
           "value": "exitRightOutside"
         }
       ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "current",
-      "persistentUuid": "65c59f08-ccc7-4a98-871f-7e673cf3e100",
-      "width": 0,
-      "x": 76,
-      "y": 509,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "previuos",
-      "persistentUuid": "0cd1cf74-8e6d-4062-b7a9-549b008cd2c0",
-      "width": 0,
-      "x": 84,
-      "y": 556,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "previuosValue",
-      "persistentUuid": "2a08e522-3017-413f-94cf-ad5bb77ebf57",
-      "width": 0,
-      "x": 319,
-      "y": 560,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "currentValue",
-      "persistentUuid": "c95ff1ea-0956-41fe-b87e-e38b2c9c3bea",
-      "width": 0,
-      "x": 319,
-      "y": 509,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [],
@@ -291,7 +211,7 @@
           },
           "parameters": [
             "",
-            "assets\\audio\\atmosphere\\02 PedroExterior-Bandido-Lenador-Puente_Atmo.wav",
+            "assets\\audio\\atmosphere\\02 PedroExterior-Bandido-Lenador-Puente_Atmo.mp3",
             "2",
             "yes",
             "5",
@@ -498,6 +418,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "cursorMode",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -692,6 +624,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "cursorMode",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -909,8 +853,8 @@
       "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
-      "name": "TopDownMovement",
-      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+      "name": "cursor",
+      "type": "MouseHelper::cursor"
     }
   ]
 }

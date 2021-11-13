@@ -1,0 +1,102 @@
+{
+  "associatedLayout": "bedroom",
+  "lastChangeTimeStamp": 0,
+  "name": "save_inventory",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Go through each slot and write item name from each slot in to file and use item name to write number of item from inventory in to file",
+      "comment2": ""
+    },
+    {
+      "disabled": true,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "inventory_slot",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"inventory_save\"",
+            "\"item_name\" + ToString(inventory_slot.Variable(ID))",
+            "inventory_slot.VariableString(item_name)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"inventory_save\"",
+            "\"item_description\" + ToString(inventory_slot.Variable(ID))",
+            "inventory_slot.VariableString(item_description)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"inventory_save\"",
+            "\"numberofitems\" + ToString(inventory_slot.Variable(ID))",
+            "Inventory::Count(\"player_inventory\", inventory_slot.VariableString(item_name))"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "inventory_slot",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "inventory_items_info[ToString(inventory_slot.Variable(ID))].item_name",
+            "=",
+            "inventory_slot.VariableString(item_name)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "inventory_items_info[ToString(inventory_slot.Variable(ID))].numberofitems",
+            "=",
+            "Inventory::Count(\"player_inventory\", inventory_slot.VariableString(item_name))"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ]
+}

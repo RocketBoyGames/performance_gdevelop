@@ -401,7 +401,7 @@
               "parameters": [
                 "",
                 "yes",
-                "no"
+                "yes"
               ],
               "subInstructions": []
             }
@@ -700,7 +700,7 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "NewObject",
+            "itemDescription",
             "=",
             "Cursor.Layer()"
           ],
@@ -712,7 +712,7 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "currentValue",
+            "key_quantity",
             "=",
             "GlobalVariableString(cursorMode)"
           ],
@@ -724,7 +724,7 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "previuosValue",
+            "cursorLayer",
             "=",
             "GlobalVariableString(previousCursorMode)"
           ],

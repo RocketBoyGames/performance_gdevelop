@@ -77,14 +77,6 @@
       "target": "playerMovement2"
     },
     {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    },
-    {
       "disabled": true,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
@@ -202,14 +194,6 @@
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
           "events": []
         }
       ]

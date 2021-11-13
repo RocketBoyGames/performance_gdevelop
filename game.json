@@ -54,42 +54,6 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/audio/SFX/146 pies fuera 1.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\SFX\\146 pies fuera 1.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/SFX/147 pies fuera 2.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\SFX\\147 pies fuera 2.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/atmosphere/01 PedroHabitacionDentra_Atmo.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\atmosphere\\01 PedroHabitacionDentra_Atmo.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/atmosphere/02 PedroExterior-Bandido-Lenador-Puente_Atmo.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\atmosphere\\02 PedroExterior-Bandido-Lenador-Puente_Atmo.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/interface/Barra Iconos/01 Caminar/01 Caminar1.png",
         "kind": "image",
@@ -376,105 +340,6 @@
         "name": "assets\\interface\\Barra Iconos\\Barra Animaciones\\sed mapa hambre barra\\Mapa glow - solo boton1.png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "assets/audio/SFX/137 Barra Highlight.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\SFX\\137 Barra Highlight.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/buttons/01 CAMINAR.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\buttons\\01 CAMINAR.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/buttons/02 MIRAR.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\buttons\\02 MIRAR.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/buttons/03 USAR.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\buttons\\03 USAR.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/buttons/04 HABLAR.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\buttons\\04 HABLAR.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/SFX/160_simple_click.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\SFX\\160_simple_click.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/buttons/05 OBJETOS.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\buttons\\05 OBJETOS.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/buttons/29_MISIONES.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\buttons\\29_MISIONES.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/buttons/08 OPCIONES.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\buttons\\08 OPCIONES.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/buttons/09 SALIR.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\buttons\\09 SALIR.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/buttons/27 MAPA.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\buttons\\27 MAPA.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -2788,6 +2653,265 @@
         "name": "assets\\interface\\Inventory\\maskk_inventory.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/audio/atmosphere/01 PedroHabitacionDentra_Atmo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\atmosphere\\01 PedroHabitacionDentra_Atmo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/atmosphere/02 PedroExterior-Bandido-Lenador-Puente_Atmo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\atmosphere\\02 PedroExterior-Bandido-Lenador-Puente_Atmo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/SFX/137 Barra Highlight.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\SFX\\137 Barra Highlight.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/SFX/160_simple_click.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\SFX\\160_simple_click.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/SFX/146 pies fuera 1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\SFX\\146 pies fuera 1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/SFX/147 pies fuera 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\SFX\\147 pies fuera 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/buttons/01 CAMINAR.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\01 CAMINAR.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/buttons/02 MIRAR.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\02 MIRAR.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/buttons/03 USAR.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\03 USAR.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/buttons/04 HABLAR.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\04 HABLAR.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/buttons/05 OBJETOS.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\05 OBJETOS.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/buttons/08 OPCIONES.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\08 OPCIONES.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/buttons/09 SALIR.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\09 SALIR.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/buttons/27 MAPA.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\27 MAPA.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/buttons/29_MISIONES.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\29_MISIONES.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/pedro/136 lateral no clothes/136_Pedro_Caminar_Lateral_SinRopas_Faster12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/speech/buttons/12 SELECCIONAR.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\buttons\\12 SELECCIONAR.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\PressStart2P-Regular.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2810,10 +2934,10 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "maxSpeed": 500,
+          "cellHeight": 10,
+          "cellWidth": 10,
           "acceleration": 1000,
-          "cellHeight": 7,
-          "cellWidth": 7,
-          "maxSpeed": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -5545,8 +5669,8 @@
               "timeBetweenFrames": 0.10000000149011612,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v2.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5559,30 +5683,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v3.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5595,30 +5700,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v4.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5631,30 +5717,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v5.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5667,30 +5734,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v6.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5703,30 +5751,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v7.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5739,30 +5768,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v8.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5775,30 +5785,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v9.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5811,30 +5802,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v10.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5847,30 +5819,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v11.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5883,30 +5836,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v12.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5919,30 +5853,11 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v13.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\characters\\pedro\\136 lateral no clothes\\136_Pedro_Caminar_Lateral_SinRopas_Faster12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5955,26 +5870,7 @@
                     "x": 131.33331298828125,
                     "y": 112
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 104.0000228881836,
-                        "y": 228.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 226.66668701171875
-                      },
-                      {
-                        "x": 178.00001525878906,
-                        "y": 250.66668701171875
-                      },
-                      {
-                        "x": 102.0000228881836,
-                        "y": 250.66668701171875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -8354,8 +8250,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 23.83331298828125,
-                    "y": 43.333343505859375
+                    "x": 24.5,
+                    "y": 0.66668701171875
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -9498,6 +9394,1079 @@
               ]
             }
           ]
+        },
+        {
+          "name": "yellow_key",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\01 Llave Icono.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.757574081420898,
+                    "y": 29.69697380065918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.636363983154297,
+                    "y": 30.060609817504883
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "trophy",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\02 Trofeo Icono.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 22.121212005615234,
+                    "y": 13.696971893310547
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 22.363637924194336,
+                    "y": 13.696971893310547
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\03 Dinero Icono.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 17.636363983154297,
+                    "y": 29.69697380065918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.7575740814209,
+                    "y": 29.333335876464844
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\17 Dinero x2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 18,
+                    "y": 13.333335876464844
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 18,
+                    "y": 13.696971893310547
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\18 Dinero x3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 18.121212005615234,
+                    "y": 14.060608863830566
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 18.200000762939453,
+                    "y": 13.966669082641602
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\28 Dinero x4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 18.223957061767578,
+                    "y": 13.446181297302246
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 18.335071563720703,
+                    "y": 13.779515266418457
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\29 Dinero x5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 14.223958015441895,
+                    "y": 14.112848281860352
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14.223958015441895,
+                    "y": 13.779515266418457
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin6",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\30 Dinero x6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 13.890624046325684,
+                    "y": 14.112848281860352
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 13.890624046325684,
+                    "y": 14.112848281860352
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin7",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\31 Dinero x7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 14.223958015441895,
+                    "y": 13.779515266418457
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14.001738548278809,
+                    "y": 13.779515266418457
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin8",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\32 Dinero x8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 14.223958015441895,
+                    "y": 13.779515266418457
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14.001738548278809,
+                    "y": 13.446181297302246
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin9",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\33 Dinero x9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 14.223958015441895,
+                    "y": 13.446181297302246
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14.33507251739502,
+                    "y": 13.779515266418457
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coin10",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\34 Dinero x10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 14.223958015441895,
+                    "y": 14.112848281860352
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14.001738548278809,
+                    "y": 14.112848281860352
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "empty_bottle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\04 Botella Vacia.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 21.890625,
+                    "y": 33.77951431274414
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 22.223957061767578,
+                    "y": 33.77951431274414
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "empty_bottle2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\04 Botella Vacia 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 14.557291030883789,
+                    "y": 29.11284828186035
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14.668405532836914,
+                    "y": 29.11284828186035
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "water",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\05 Botella Llena.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "water2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\05 Botella Llena2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "alcohol",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\06 Botella Ron.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "alcohol2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\06 Botella Ron2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "corn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\07 Maiz.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rock",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\08 Roca.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "knife",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\09 Cuchillo B.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "honey",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\10 Miel.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bread",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\11 Pan.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "apple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\12 Manzana.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tomato",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\13 Tomate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "carrot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\14 Zanahoria.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pumpkin",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\15 Calabeza.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sword",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\16 Espada.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "necklace",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\19 Collar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "soup_ingredients",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\20 Lista de ingredientes.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "map_item",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\21 Mapa.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lid",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\22 Tapa de Barril.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mushroom",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\23 Hongo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rope",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\24 Cuerda.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "glasses",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\25 Gafas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "soup",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\26 Botella Llena Sopa.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "soup2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\inventory_items\\26 Botella Llena Sopa2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -9549,8 +10518,8 @@
       "variables": [
         {
           "name": "ID",
-          "type": "string",
-          "value": ""
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -10050,7 +11019,7 @@
           ]
         },
         {
-          "name": "rum",
+          "name": "alcohol",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -10079,7 +11048,7 @@
           ]
         },
         {
-          "name": "rum2",
+          "name": "alcohol2",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -11874,7 +12843,7 @@
     {
       "bold": true,
       "italic": true,
-      "name": "current",
+      "name": "cursorMode",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -11882,7 +12851,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "current",
+      "string": "cursor mode",
       "font": "",
       "characterSize": 50,
       "color": {
@@ -11894,7 +12863,7 @@
     {
       "bold": true,
       "italic": true,
-      "name": "previuos",
+      "name": "active_inventory",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -11902,7 +12871,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Previous",
+      "string": "active inventory",
       "font": "",
       "characterSize": 50,
       "color": {
@@ -11914,7 +12883,7 @@
     {
       "bold": true,
       "italic": true,
-      "name": "previuosValue",
+      "name": "cursorLayer",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -11922,7 +12891,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Previous",
+      "string": "cursorLayer",
       "font": "",
       "characterSize": 50,
       "color": {
@@ -11934,7 +12903,7 @@
     {
       "bold": true,
       "italic": false,
-      "name": "NewObject",
+      "name": "itemDescription",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -11943,8 +12912,8 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
-      "characterSize": 50,
+      "font": "assets\\PressStart2P-Regular.ttf",
+      "characterSize": 30,
       "color": {
         "b": 0,
         "g": 0,
@@ -11954,7 +12923,7 @@
     {
       "bold": true,
       "italic": false,
-      "name": "currentValue",
+      "name": "coin_quantity",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -11962,9 +12931,69 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "coin",
       "font": "",
-      "characterSize": 50,
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "bottle_quantity",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "key",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "key_quantity",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "key",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Fullscreen",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "FULLSCREEN",
+      "font": "",
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
@@ -12028,6 +13057,42 @@
       "name": "previousCursorMode",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "inventorySlotCounter",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "InventoryItemHandle",
+      "type": "structure",
+      "children": [
+        {
+          "name": "addItem?",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "item_name",
+          "type": "string",
+          "value": "\"\""
+        },
+        {
+          "name": "quantity",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "removeItem?",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "name": "active_inventory",
+      "type": "string",
+      "value": "\"\""
     }
   ],
   "layouts": [
@@ -12076,6 +13141,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/playermovement2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/save_inventory"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/load_inventory"
     }
   ],
   "eventsFunctionsExtensions": [
