@@ -1855,6 +1855,17 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "Cursor",
+                    "\"Inventory\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [

@@ -2714,7 +2714,7 @@
         "metadata": "",
         "name": "assets\\audio\\speech\\buttons\\01 CAMINAR.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": true,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -2723,7 +2723,7 @@
         "metadata": "",
         "name": "assets\\audio\\speech\\buttons\\02 MIRAR.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": true,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -2732,7 +2732,7 @@
         "metadata": "",
         "name": "assets\\audio\\speech\\buttons\\03 USAR.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": true,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -2741,7 +2741,7 @@
         "metadata": "",
         "name": "assets\\audio\\speech\\buttons\\04 HABLAR.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": true,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -2750,7 +2750,7 @@
         "metadata": "",
         "name": "assets\\audio\\speech\\buttons\\05 OBJETOS.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": true,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -2759,7 +2759,7 @@
         "metadata": "",
         "name": "assets\\audio\\speech\\buttons\\08 OPCIONES.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": true,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -2768,7 +2768,7 @@
         "metadata": "",
         "name": "assets\\audio\\speech\\buttons\\09 SALIR.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": true,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -2777,7 +2777,7 @@
         "metadata": "",
         "name": "assets\\audio\\speech\\buttons\\27 MAPA.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": true,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -2786,7 +2786,7 @@
         "metadata": "",
         "name": "assets\\audio\\speech\\buttons\\29_MISIONES.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": true,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -3065,6 +3065,204 @@
         "name": "assets\\audio\\speech\\Narrator\\NARR258.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/door/Pedros House Door1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\door\\Pedros House Door1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedro Mesa Popup/Mesa Popup C1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Mesa Popup C1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedro Mesa Popup/Mesa Popup C2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Mesa Popup C2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedro Mesa Popup/Mesa Popup C3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Mesa Popup C3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedro Mesa Popup/Mesa Popup C4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Mesa Popup C4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Cofre Popup/Cofre Popup C - 180p.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Cofre Popup\\Cofre Popup C - 180p.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedro Mesa Popup/Dinero.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Dinero.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedro Mesa Popup/Llave Cofre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Llave Cofre.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Cofre Popup/Trofeo Popup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Cofre Popup\\Trofeo Popup.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Cofre Popup/Cofre Botella1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Cofre Popup\\Cofre Botella1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR667.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR667.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Drawer1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Drawer1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Drawer2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Drawer2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Cofre Tapa b1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Cofre Tapa b1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Cofre Tapa b2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Cofre Tapa b2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Cofre Tapa b3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Cofre Tapa b3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Wardrobe1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Wardrobe1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Wardrobe2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Wardrobe2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Wardrobe3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Wardrobe3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Wardrobe4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Wardrobe4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Wardrobe5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Wardrobe5.png",
+        "smoothed": false,
         "userAdded": true
       }
     ],
@@ -6930,11 +7128,6 @@
           "name": "button_name",
           "type": "string",
           "value": ""
-        },
-        {
-          "name": "isHovering",
-          "type": "boolean",
-          "value": false
         }
       ],
       "effects": [],
@@ -8355,6 +8548,11 @@
           "name": "narrator_speech",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "cursorLook_specificHandle",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -8627,6 +8825,115 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
+                  "image": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Mesa Popup C1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Mesa Popup C2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Mesa Popup C3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\scenes\\bedroom\\Pedro Mesa Popup\\Mesa Popup C4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\scenes\\bedroom\\Pedros Cofre Popup\\Cofre Popup C - 180p.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.20000000298023224,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
                   "image": "assets\\scenes\\outside_bedroom\\Exterior Habitation Pedro v4 01.png",
                   "points": [],
                   "originPoint": {
@@ -8812,7 +9119,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "karloz_room",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -13339,10 +13646,6 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/playermovement2"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/save_inventory"
     },
     {
@@ -13352,6 +13655,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/narrator_speech"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/playermovement2"
     }
   ],
   "eventsFunctionsExtensions": [

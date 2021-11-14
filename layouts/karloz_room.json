@@ -100,7 +100,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 5
         }
       ],
       "stringProperties": [],
@@ -270,21 +270,7 @@
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ZoomCamera"
-          },
-          "parameters": [
-            "",
-            "0.87",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
+      "actions": [],
       "events": []
     },
     {
@@ -313,6 +299,19 @@
             "currentRoom",
             "=",
             "\"karloz_room\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "0.87",
+            "",
+            ""
           ],
           "subInstructions": []
         }
@@ -653,17 +652,6 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 7258944,
-      "ambientLightColorG": 6024160,
-      "ambientLightColorR": 11385400,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Cursor",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 8757232,
       "ambientLightColorG": 6024160,
       "ambientLightColorR": 12415840,
@@ -673,16 +661,34 @@
       "visibility": true,
       "cameras": [],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 7774712,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 12685312,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "ExitPopup",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7258944,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 11385400,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Cursor",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
     {
       "name": "Pathfinding",
       "type": "PathfindingBehavior::PathfindingBehavior"
-    },
-    {
-      "name": "PathfindingObstacle",
-      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "cursor",

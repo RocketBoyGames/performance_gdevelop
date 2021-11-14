@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6599999786376953,
+    "zoomFactor": 0.40999999389648434,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -100,7 +100,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 4
         }
       ],
       "stringProperties": [],
@@ -662,23 +662,34 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 10744672,
-      "ambientLightColorG": 6024160,
-      "ambientLightColorR": 11368280,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Cursor",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 8756880,
       "ambientLightColorG": 6024160,
       "ambientLightColorR": 12401352,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "NarratorBox",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 33554432,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 12670816,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "ExitPopup",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 10744672,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 11368280,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Cursor",
       "visibility": true,
       "cameras": [],
       "effects": []

@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4500000335693358,
+    "zoomFactor": 0.6500000213623046,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -39,6 +39,86 @@
       "x": 534,
       "y": 43,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "locked": false,
+      "name": "collisions",
+      "persistentUuid": "2e21f277-6dc3-431c-9616-45433bbd0781",
+      "width": 584,
+      "x": 299,
+      "y": 114,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 62,
+      "layer": "",
+      "locked": false,
+      "name": "collisions",
+      "persistentUuid": "1e707e74-2549-43ea-b9bc-89a4427423f7",
+      "width": 1143,
+      "x": 113,
+      "y": 598,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "playerTestBounce",
+      "persistentUuid": "174fc392-f451-4460-b280-33d1cc346754",
+      "width": 0,
+      "x": 608.3333129882812,
+      "y": 421.66668701171875,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 114.04971313476562,
+      "customSize": true,
+      "height": 512.5986328125,
+      "layer": "",
+      "locked": false,
+      "name": "collision2",
+      "persistentUuid": "d249e436-d7cb-49d1-9424-565697cc2913",
+      "width": 512.5986328125,
+      "x": 749.20068359375,
+      "y": 171.20065307617188,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 21.35367774963379,
+      "customSize": true,
+      "height": 641,
+      "layer": "",
+      "locked": false,
+      "name": "collisions",
+      "persistentUuid": "bf56eb99-6e65-47a8-b704-b8926d25f769",
+      "width": 31,
+      "x": 216.3623504638672,
+      "y": 60.64175796508789,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -64,11 +144,2824 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "playerTestBounce",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 500,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 10,
+          "cellWidth": 10,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 500,
+          "name": "Pathfinding",
+          "rotateObject": false,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.20000000298023224,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa18.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa24.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa25.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa26.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa27.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa28.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa29.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa30.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa31.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa32.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa33.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa34.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa35.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa36.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa37.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa38.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa39.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa40.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa41.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa42.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa43.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa44.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa45.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa46.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa47.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa48.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa49.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa50.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa51.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa52.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa53.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa54.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa55.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa56.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa57.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa58.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa59.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa60.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa61.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa62.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa63.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa64.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa65.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa66.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa67.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa68.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa69.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa70.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa71.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa72.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa73.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa74.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa75.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.33331298828125,
+                    "y": 246.66668701171875
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102.66667938232422,
+                        "y": 212.66668701171875
+                      },
+                      {
+                        "x": 169.3333282470703,
+                        "y": 219.3333740234375
+                      },
+                      {
+                        "x": 176.6667022705078,
+                        "y": 252.66668701171875
+                      },
+                      {
+                        "x": 97.33333587646484,
+                        "y": 253.3333740234375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "collision2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewObject-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39.58974838256836,
+                        "y": 0
+                      },
+                      {
+                        "x": 51.48719024658203,
+                        "y": 0
+                      },
+                      {
+                        "x": 8.10256576538086,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 60.20513916015625
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
     {
-      "disabled": false,
+      "disabled": true,
       "folded": false,
       "type": "BuiltinCommonInstructions::Link",
       "include": {
@@ -237,6 +3130,149 @@
       ],
       "actions": [],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "playerTestBounce",
+            "Pathfinding",
+            "",
+            "MouseX()",
+            "MouseY()"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "playerTestBounce",
+                "collisions",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "playerTestBounce",
+                "collision2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectPositionTween"
+          },
+          "parameters": [
+            "playerTestBounce",
+            "Tween",
+            "\"bounce pedro\"",
+            "playerTestBounce.X()",
+            "playerTestBounce.Y()+10",
+            "\"easeOutBack\"",
+            "50",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": true,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "playerTestBounce",
+            "collisions",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "playerTestBounce",
+            "collisions",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ],
   "layers": [
@@ -269,8 +3305,12 @@
       "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
-      "name": "TopDownMovement",
-      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    },
+    {
+      "name": "cursor",
+      "type": "MouseHelper::cursor"
     }
   ]
 }
