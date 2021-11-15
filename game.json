@@ -8553,6 +8553,11 @@
           "name": "cursorLook_specificHandle",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": ""
         }
       ],
       "effects": [],
@@ -8569,7 +8574,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\scenes\\hotspotss.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "hover_name",
+                      "x": 8,
+                      "y": 8
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -13428,7 +13439,7 @@
     {
       "bold": true,
       "italic": false,
-      "name": "key_quantity",
+      "name": "hotspot_name_cursor",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -13436,9 +13447,29 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "key",
-      "font": "",
-      "characterSize": 20,
+      "string": "hotspot_name",
+      "font": "assets\\fonts\\MonkeyIsland.ttf",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "hotspot_name",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "hotspot_name",
+      "font": "assets\\fonts\\MonkeyIsland.ttf",
+      "characterSize": 30,
       "color": {
         "b": 0,
         "g": 0,

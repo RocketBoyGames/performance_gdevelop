@@ -45,6 +45,14 @@
                 "\"numberofitems\" + ToString(inventory_slot.Variable(ID))"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -100,7 +108,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "inventory_slot",
               "conditions": [
@@ -116,6 +124,14 @@
                     "\"\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [],
@@ -125,7 +141,16 @@
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Repeat",
                   "repeatExpression": "Inventory::Count(\"player_inventory\",inventory_slot.VariableString(item_name))",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -146,7 +171,16 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -207,7 +241,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "inventory_slot",
               "conditions": [
@@ -220,6 +254,14 @@
                     "\"inventory_save\"",
                     "\"numberofitems\" + ToString(inventory_slot.Variable(ID))"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -284,7 +326,16 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -345,7 +396,16 @@
                       "folded": false,
                       "type": "BuiltinCommonInstructions::Repeat",
                       "repeatExpression": "Variable(numberofitems)",
-                      "conditions": [],
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
                       "actions": [
                         {
                           "type": {

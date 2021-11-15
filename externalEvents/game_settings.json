@@ -320,136 +320,6 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "This is how the camera should behave in most of the rooms, there are some exceptions (see conditions field).\n The red object follow the player with lerp(smoothing). And the camera follow the red object with limits.",
-      "comment2": ""
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "currentRoom",
-            "!=",
-            "\"karloz_room\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "currentRoom",
-            "!=",
-            "\"drawer\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "currentRoom",
-            "!=",
-            "\"chest\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "FixCamera"
-          },
-          "parameters": [
-            "",
-            "followPlayer",
-            "0",
-            "-168",
-            "1280",
-            "720",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetCameraY"
-          },
-          "parameters": [
-            "",
-            "=",
-            "CameraY()",
-            "\"Hotspots\"",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetCameraX"
-          },
-          "parameters": [
-            "",
-            "=",
-            "CameraX()",
-            "\"Hotspots\"",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "followPlayer",
-            "=",
-            "lerp(followPlayer.X(),Player.CenterX(),0.1)",
-            "=",
-            "lerp(followPlayer.Y(),Player.CenterY(),0.1)"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 35,
-        "g": 166,
-        "r": 245,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
       "comment": "Avoid collisions",
       "comment2": ""
     },
@@ -473,503 +343,6 @@
         }
       ],
       "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 35,
-        "g": 166,
-        "r": 245,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Fullscreen toggle",
-      "comment2": ""
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "buttons",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "buttons",
-                    "button_name",
-                    "=",
-                    "\"fullscreen\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Layer"
-                  },
-                  "parameters": [
-                    "Cursor",
-                    "\"Cursor\""
-                  ],
-                  "subInstructions": []
-                }
-              ]
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Escape"
-              ],
-              "subInstructions": []
-            }
-          ]
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ToggleGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "isFullscreen"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "isFullscreen",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetFullScreen"
-              },
-              "parameters": [
-                "",
-                "yes",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "isFullscreen",
-                "False"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetFullScreen"
-              },
-              "parameters": [
-                "",
-                "no",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 35,
-        "g": 166,
-        "r": 245,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Visible UIs ",
-      "comment2": ""
-    },
-    {
-      "disabled": false,
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "visibleGUIname",
-            "=",
-            "\"iconbar\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeLayer"
-          },
-          "parameters": [
-            "Cursor",
-            "\"Cursor\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Iconbar\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Inventory\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"NarratorBox\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Iconbar\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "visibleGUIname",
-            "=",
-            "\"inventory\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeLayer"
-          },
-          "parameters": [
-            "Cursor",
-            "\"Inventory\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Inventory\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Iconbar\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Inventory\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "visibleGUIname",
-            "=",
-            "\"narratorbox\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeLayer"
-          },
-          "parameters": [
-            "Cursor",
-            "\"NarratorBox\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"NarratorBox\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"NarratorBox\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
     },
     {
       "disabled": false,
@@ -1117,6 +490,645 @@
       "creationTime": 0,
       "disabled": false,
       "folded": true,
+      "name": "Camera management",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "This is how the camera should behave in most of the rooms, there are some exceptions (see conditions field).\n The red object follow the player with lerp(smoothing). And the camera follow the red object with limits.",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "currentRoom",
+                "!=",
+                "\"karloz_room\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "currentRoom",
+                "!=",
+                "\"drawer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "currentRoom",
+                "!=",
+                "\"chest\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "followPlayer",
+                "0",
+                "-168",
+                "1280",
+                "720",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraY()",
+                "\"Hotspots\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraX()",
+                "\"Hotspots\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "followPlayer",
+                "=",
+                "lerp(followPlayer.X(),Player.CenterX(),0.1)",
+                "=",
+                "lerp(followPlayer.Y(),Player.CenterY(),0.1)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": true,
+      "name": "Fullscreen toggle",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "buttons",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "buttons",
+                        "button_name",
+                        "=",
+                        "\"fullscreen\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Layer"
+                      },
+                      "parameters": [
+                        "Cursor",
+                        "\"Cursor\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Escape"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "isFullscreen"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isFullscreen",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "yes",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isFullscreen",
+                    "False"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "no",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": true,
+      "name": "Hide/Show UIs ",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "visibleGUIname",
+                "=",
+                "\"iconbar\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Cursor\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Iconbar\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"NarratorBox\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Iconbar\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "visibleGUIname",
+                "=",
+                "\"inventory\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Inventory\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Iconbar\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "visibleGUIname",
+                "=",
+                "\"narratorbox\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"NarratorBox\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"NarratorBox\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"NarratorBox\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
       "name": "Narrator Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1481,66 +1493,7 @@
       "creationTime": 0,
       "disabled": false,
       "folded": true,
-      "name": "External Events",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "inventory_management"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "player_movement"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "cursor_management"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "top_iconbar"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "narrator_speech"
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": false,
-      "name": "Exit PopUp button",
+      "name": "Exit button for PopUps ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -1879,6 +1832,336 @@
                   "events": []
                 }
               ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": true,
+      "name": "External Events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "inventory_management"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "player_movement"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "cursor_management"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "top_iconbar"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "narrator_speech"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Hotspot name hover",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Layer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Cursor\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    "MouseX()",
+                    "MouseY()",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "hotspot_name",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "hotspot_name",
+                    "=",
+                    "MouseX(,)",
+                    "=",
+                    "MouseY(,)-70"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "hotspot_name",
+                    "=",
+                    "hotspots.VariableString(display_name)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Not"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "hotspots",
+                        "MouseX()",
+                        "MouseY()",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "hotspot_name"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DoubleClick::HasDoubleClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "Left",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "hotspots",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "hotspots",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "clickOnUI",
+                        "="
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "hotspot_name_cursor",
+                        "hotspots.PointX(\"hover_name\")-hotspot_name.Width()/3",
+                        "hotspots.PointY(\"hover_name\")-20",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "hotspot_name_cursor",
+                        "=",
+                        "hotspots.VariableString(display_name)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "DeviceVibration::StartVibration"
+                      },
+                      "parameters": [
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "hotspot_name_cursor",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         }

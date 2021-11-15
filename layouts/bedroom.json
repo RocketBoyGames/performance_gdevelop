@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1099999511718743,
+    "zoomFactor": 0.509999990844726,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -151,6 +151,11 @@
           "name": "narrator_speech",
           "type": "number",
           "value": 250
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Puerta"
         }
       ]
     },
@@ -173,7 +178,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 90,
+      "height": 70,
       "layer": "Hotspots",
       "locked": false,
       "name": "hotspots",
@@ -181,7 +186,7 @@
       "width": 507,
       "x": 13,
       "y": 654,
-      "zOrder": 27,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -199,6 +204,11 @@
           "name": "narrator_speech",
           "type": "number",
           "value": 258
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Cama"
         }
       ]
     },
@@ -314,8 +324,8 @@
       "name": "hotspots",
       "persistentUuid": "7851c809-f298-4dd9-858e-23b39e4ffc76",
       "width": 269,
-      "x": 314,
-      "y": 155,
+      "x": 323,
+      "y": 146,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -334,6 +344,11 @@
           "name": "narrator_speech",
           "type": "number",
           "value": 261
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Ventana"
         }
       ]
     },
@@ -366,6 +381,11 @@
           "name": "narrator_speech",
           "type": "number",
           "value": 260
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Pintura"
         }
       ]
     },
@@ -398,6 +418,11 @@
           "name": "narrator_speech",
           "type": "number",
           "value": 256
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Libros"
         }
       ]
     },
@@ -430,6 +455,11 @@
           "name": "narrator_speech",
           "type": "number",
           "value": 244
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Armario"
         }
       ]
     },
@@ -467,6 +497,11 @@
           "name": "cursorLook_specificHandle",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Cajón"
         }
       ]
     },
@@ -610,6 +645,11 @@
           "name": "narrator_speech",
           "type": "number",
           "value": 667
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Cofre"
         }
       ]
     },
@@ -640,7 +680,7 @@
       "width": 0,
       "x": 104,
       "y": 419,
-      "zOrder": 55,
+      "zOrder": -4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -657,6 +697,22 @@
       "x": 755,
       "y": 232,
       "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "hotspot_name",
+      "persistentUuid": "027844ad-54fb-421e-8df0-f66c2fc03725",
+      "width": 0,
+      "x": 1306,
+      "y": 347,
+      "zOrder": 57,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3169,7 +3225,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "key_quantity",
+                "hotspot_name",
                 "",
                 "",
                 ""
@@ -3480,7 +3536,7 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "key_quantity",
+                "hotspot_name",
                 "=",
                 "ToString(Inventory::Count(\"player_inventory\", \"yellow_key\"))"
               ],
@@ -3524,7 +3580,7 @@
               },
               "parameters": [
                 "",
-                "key_quantity",
+                "hotspot_name",
                 "560",
                 "210+Variable(i)",
                 ""
@@ -3537,7 +3593,7 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "key_quantity",
+                "hotspot_name",
                 "=",
                 "inventory_slot.VariableString(item_name)"
               ],
