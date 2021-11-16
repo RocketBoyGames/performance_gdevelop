@@ -1,0 +1,6 @@
+1 footsteps
+2 atmosphere
+3 narrator speech
+4 music
+5 buttons
+6 characters speech

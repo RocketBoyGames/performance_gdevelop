@@ -194,7 +194,7 @@
     },
     {
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -345,151 +345,12 @@
       "events": []
     },
     {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "General Events when Clicking on hotspots with the \"look\" cursor",
-      "comment2": ""
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "cursorMode",
-            "=",
-            "2"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "hotspots",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Layer"
-          },
-          "parameters": [
-            "Cursor",
-            "\"Cursor\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "hotspots",
-            "cursorLook_specificHandle",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "clickOnUI",
-            "False"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "narrator_speech",
-            "=",
-            "hotspots.Variable(narrator_speech)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobalTxt"
-          },
-          "parameters": [
-            "visibleGUIname",
-            "=",
-            "\"narratorbox\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "narrator_text",
-            "=",
-            "hotspots.VariableString(description)"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Camera management",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -547,6 +408,18 @@
                 "currentRoom",
                 "!=",
                 "\"chest\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "currentRoom",
+                "!=",
+                "\"popups\""
               ],
               "subInstructions": []
             }
@@ -633,7 +506,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Fullscreen toggle",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1150,7 +1023,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1331,7 +1204,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1492,7 +1365,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Exit button for PopUps ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1903,7 +1776,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Hotspot name hover",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2167,6 +2040,145 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "General Events when Clicking on hotspots with the \"look\" cursor",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "cursorMode",
+            "=",
+            "2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "hotspots",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Layer"
+          },
+          "parameters": [
+            "Cursor",
+            "\"Cursor\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "hotspots",
+            "cursorLook_specificHandle",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "clickOnUI",
+            "False"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "narrator_speech",
+            "=",
+            "hotspots.Variable(narrator_speech)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "narrator_text",
+            "=",
+            "hotspots.VariableString(description)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "visibleGUIname",
+            "=",
+            "\"narratorbox\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ]
 }

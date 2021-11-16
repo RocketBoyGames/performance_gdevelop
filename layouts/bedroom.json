@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.509999990844726,
+    "zoomFactor": 0.21000000915527284,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -614,12 +614,12 @@
     {
       "angle": 35.86429214477539,
       "customSize": true,
-      "height": 156.84854125976562,
+      "height": 157,
       "layer": "Hotspots",
       "locked": false,
       "name": "hotspots",
       "persistentUuid": "877b647f-7c8f-4cdb-8b10-bbf44202cba3",
-      "width": 106.25223541259766,
+      "width": 106,
       "x": 126.8738784790039,
       "y": 441.8952941894531,
       "zOrder": 54,
@@ -710,8 +710,8 @@
       "name": "hotspot_name",
       "persistentUuid": "027844ad-54fb-421e-8df0-f66c2fc03725",
       "width": 0,
-      "x": 1306,
-      "y": 347,
+      "x": -408,
+      "y": -91,
       "zOrder": 57,
       "numberProperties": [],
       "stringProperties": [],
@@ -1890,9 +1890,9 @@
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "DestX",
+                            "DestY",
                             "=",
-                            "470"
+                            "540"
                           ],
                           "subInstructions": []
                         },
@@ -1902,9 +1902,9 @@
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "DestY",
+                            "DestX",
                             "=",
-                            "540"
+                            "470"
                           ],
                           "subInstructions": []
                         },
@@ -2619,14 +2619,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetCameraY"
+                    "value": "ShowLayer"
                   },
                   "parameters": [
                     "",
-                    "=",
-                    "lerp(CameraY(),-528, 0.2)",
-                    "",
-                    ""
+                    "\"ExitPopup\""
                   ],
                   "subInstructions": []
                 },
@@ -2645,11 +2642,14 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ShowLayer"
+                    "value": "SetCameraY"
                   },
                   "parameters": [
                     "",
-                    "\"ExitPopup\""
+                    "=",
+                    "lerp(CameraY(),-528, 0.2)",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -2934,7 +2934,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Testing stuff/functions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3020,44 +3020,7 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "cursorMode",
-                    "=",
-                    "GlobalVariableString(InventoryItemHandle.item_name)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "active_inventory",
-                    "=",
-                    "GlobalVariableString(InventoryItemHandle.quantity)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "cursorLayer",
-                    "=",
-                    "GlobalVariableString(InventoryItemHandle[\"addItem?\"])"
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": []
             }
           ]
@@ -3313,19 +3276,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "coin_quantity",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Inventory::Count"
               },
               "parameters": [
@@ -3404,19 +3354,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "bottle_quantity",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Inventory::Count"
               },
               "parameters": [
@@ -3488,69 +3425,9 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "cursorMode",
-                "=",
-                "GlobalVariableString(cursorMode)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "cursorLayer",
-                "=",
-                "Cursor.Layer()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "active_inventory",
-                "=",
-                "GlobalVariableString(active_inventory)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "coin_quantity",
-                "=",
-                "ToString(Inventory::Count(\"player_inventory\", \"coin\"))"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
                 "hotspot_name",
                 "=",
                 "ToString(Inventory::Count(\"player_inventory\", \"yellow_key\"))"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "bottle_quantity",
-                "=",
-                "ToString(Inventory::Count(\"player_inventory\", \"empty_bottle\"))"
               ],
               "subInstructions": []
             }
@@ -3614,32 +3491,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "coin_quantity",
-                "750",
-                "210+Variable(j)",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "coin_quantity",
-                "=",
-                "inventory_slot.VariableString(ID)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarScene"
               },
               "parameters": [
@@ -3657,20 +3508,7 @@
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "itemDescription",
-                "=",
-                "GlobalVariableString(narrator_speech)"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": []
         }
       ],

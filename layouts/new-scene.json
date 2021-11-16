@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6500000213623046,
+    "zoomFactor": 0.3500000396728514,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -92,22 +92,6 @@
       "initialVariables": []
     },
     {
-      "angle": 114.04971313476562,
-      "customSize": true,
-      "height": 512.5986328125,
-      "layer": "",
-      "locked": false,
-      "name": "collision2",
-      "persistentUuid": "d249e436-d7cb-49d1-9424-565697cc2913",
-      "width": 512.5986328125,
-      "x": 749.20068359375,
-      "y": 171.20065307617188,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 21.35367774963379,
       "customSize": true,
       "height": 641,
@@ -119,6 +103,22 @@
       "x": 216.3623504638672,
       "y": 60.64175796508789,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 326.4927062988281,
+      "customSize": true,
+      "height": 610,
+      "layer": "",
+      "locked": false,
+      "name": "collisions",
+      "persistentUuid": "4949deca-f0ec-47a9-98a8-d0c72d444c4c",
+      "width": 16,
+      "x": 970.956298828125,
+      "y": 75.26991271972656,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3303,6 +3303,10 @@
     {
       "name": "Pathfinding",
       "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "Tween",
