@@ -416,6 +416,70 @@
           "value": "exit_popup"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "remove_coin",
+      "persistentUuid": "37511905-3882-44ad-b45b-d46dbecd9188",
+      "width": 0,
+      "x": 726,
+      "y": 418,
+      "zOrder": 1000000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "coin_quantity_storage",
+      "persistentUuid": "b501ca54-cc9c-475b-bf99-09db9e9df66f",
+      "width": 0,
+      "x": 655,
+      "y": 468,
+      "zOrder": 1000001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "coin_quantity_slot",
+      "persistentUuid": "081ce824-4712-4717-89d0-ba37591ffa4b",
+      "width": 0,
+      "x": 660,
+      "y": 529,
+      "zOrder": 1000002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "coin_quantity_inventory",
+      "persistentUuid": "bdc8cdd2-3af2-4fff-a502-c482929a5785",
+      "width": 0,
+      "x": 650,
+      "y": 592,
+      "zOrder": 1000003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -428,7 +492,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6499999786376973,
+    "zoomFactor": 0.7499999725341817,
     "windowMask": false
   }
 }

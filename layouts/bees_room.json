@@ -701,6 +701,10 @@
       "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
       "name": "cursor",
       "type": "MouseHelper::cursor"
     }

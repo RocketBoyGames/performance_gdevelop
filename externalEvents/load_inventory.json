@@ -13,64 +13,56 @@
       "name": "Load inventory",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [
+      "events": [],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "If save exists for any inventory_slot in the scene",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
+          "type": {
+            "inverted": false,
+            "value": "GroupExists"
           },
-          "comment": "If save exists for any inventory_slot in the scene",
-          "comment2": ""
-        },
+          "parameters": [
+            "\"inventory_save\"",
+            "\"numberofitems\" + ToString(inventory_slot.Variable(ID))"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
         {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "Count(inventory_slot)",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "GroupExists"
-              },
-              "parameters": [
-                "\"inventory_save\"",
-                "\"numberofitems\" + ToString(inventory_slot.Variable(ID))"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "save_exists",
+            "=",
+            "1"
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "save_exists",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
+          "subInstructions": []
+        }
+      ],
+      "events": [
         {
           "disabled": false,
           "folded": false,
@@ -89,23 +81,21 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
               },
-              "comment": "Reset inventory, delete all items",
-              "comment2": ""
-            },
+              "parameters": [
+                "coin_quantity_slot",
+                "=",
+                "\"save exist =1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
             {
               "disabled": false,
               "folded": false,
@@ -124,14 +114,6 @@
                     "\"\""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
                 }
               ],
               "actions": [],
@@ -141,16 +123,7 @@
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Repeat",
                   "repeatExpression": "Inventory::Count(\"player_inventory\",inventory_slot.VariableString(item_name))",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": [],
-                      "subInstructions": []
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
@@ -171,16 +144,7 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": [],
-                      "subInstructions": []
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
@@ -227,21 +191,6 @@
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Read number and name of item stored for each inventory slot using their ID variable",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "inventory_slot",
               "conditions": [
@@ -254,14 +203,6 @@
                     "\"inventory_save\"",
                     "\"numberofitems\" + ToString(inventory_slot.Variable(ID))"
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -282,7 +223,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "LireFichierExp"
+                    "value": "LireFichierTxt"
                   },
                   "parameters": [
                     "\"inventory_save\"",
@@ -295,13 +236,26 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "LireFichierExp"
+                    "value": "LireFichierTxt"
                   },
                   "parameters": [
                     "\"inventory_save\"",
                     "\"item_description\" + ToString(inventory_slot.Variable(ID))",
                     "",
                     "item_description"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"inventory_save\"",
+                    "\"animation\" + ToString(inventory_slot.Variable(ID))",
+                    "",
+                    "animation"
                   ],
                   "subInstructions": []
                 }
@@ -326,16 +280,7 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": [],
-                      "subInstructions": []
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
@@ -366,70 +311,68 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SetAnimationName"
+                        "value": "ChangeAnimation"
                       },
                       "parameters": [
                         "inventory_slot",
-                        "inventory_slot.VariableString(item_name)"
+                        "=",
+                        "Variable(animation)"
                       ],
                       "subInstructions": []
                     }
                   ],
-                  "events": [
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Add the items to the inventory and update slot_text to display number of items in the inventory",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "Variable(numberofitems)",
+                  "conditions": [],
+                  "actions": [
                     {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
+                      "type": {
+                        "inverted": false,
+                        "value": "Inventory::Add"
                       },
-                      "comment": "Add the items to the inventory and update slot_text to display number of items in the inventory",
-                      "comment2": ""
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Repeat",
-                      "repeatExpression": "Variable(numberofitems)",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": [],
-                          "subInstructions": []
-                        }
+                      "parameters": [
+                        "",
+                        "\"player_inventory\"",
+                        "VariableString(item_name)"
                       ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Inventory::Add"
-                          },
-                          "parameters": [
-                            "",
-                            "\"player_inventory\"",
-                            "VariableString(item_name)"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
+                      "subInstructions": []
                     }
-                  ]
+                  ],
+                  "events": []
                 }
               ]
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     }
   ]
 }

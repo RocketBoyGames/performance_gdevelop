@@ -194,7 +194,7 @@
     },
     {
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -350,7 +350,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Camera management",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -506,7 +506,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Fullscreen toggle",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1001,7 +1001,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Narrator Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1365,94 +1365,24 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Exit button for PopUps ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "buttons",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "buttons",
-                "button_name",
-                "=",
-                "\"exit_popup\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "buttons",
-                "\"return_normal\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
+                "value": "LayerVisible"
               },
               "parameters": [
-                "buttons",
                 "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "buttons",
-                "button_name",
-                "=",
-                "\"exit_popup\""
+                "\"ExitPopup\""
               ],
               "subInstructions": []
             }
@@ -1466,159 +1396,87 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\audio\\SFX\\137 Barra Highlight.mp3",
-                    "5",
-                    "",
-                    "20",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
+                    "inverted": true,
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "buttons",
-                    "\"return_hover\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
                     "",
-                    "Left"
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\audio\\speech\\buttons\\09 SALIR.mp3",
-                    "5",
-                    "",
-                    "100",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "VarObjetTxt"
                   },
                   "parameters": [
                     "buttons",
-                    "\"return_click\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "buttons",
-                    "\"return_hover\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"ExitPopup\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobalTxt"
-                  },
-                  "parameters": [
-                    "interactingWithHotspot",
+                    "button_name",
                     "=",
-                    "\"none\""
+                    "\"exit_popup\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "buttons",
+                    "\"return_normal\""
                   ],
                   "subInstructions": []
                 }
               ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "buttons",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "buttons",
+                    "button_name",
+                    "=",
+                    "\"exit_popup\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
               "events": [
                 {
                   "disabled": false,
@@ -1628,18 +1486,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarGlobalTxt"
-                      },
-                      "parameters": [
-                        "currentRoom",
-                        "=",
-                        "\"drawer\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": [],
@@ -1650,12 +1496,26 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarGlobalTxt"
+                        "value": "PlaySoundCanal"
                       },
                       "parameters": [
-                        "currentRoom",
-                        "=",
-                        "\"bedroom\""
+                        "",
+                        "assets\\audio\\SFX\\137 Barra Highlight.mp3",
+                        "5",
+                        "",
+                        "20",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "buttons",
+                        "\"return_hover\""
                       ],
                       "subInstructions": []
                     }
@@ -1670,12 +1530,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarGlobalTxt"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
-                        "currentRoom",
-                        "=",
-                        "\"chest\""
+                        "",
+                        "Left"
                       ],
                       "subInstructions": []
                     },
@@ -1692,17 +1551,179 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarGlobalTxt"
+                        "value": "PlaySoundCanal"
                       },
                       "parameters": [
-                        "currentRoom",
-                        "=",
-                        "\"bedroom\""
+                        "",
+                        "assets\\audio\\speech\\buttons\\09 SALIR.mp3",
+                        "5",
+                        "",
+                        "100",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "buttons",
+                        "\"return_click\""
                       ],
                       "subInstructions": []
                     }
                   ],
                   "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "buttons",
+                        "\"return_hover\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"ExitPopup\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "interactingWithHotspot",
+                        "=",
+                        "\"none\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "currentRoom",
+                            "=",
+                            "\"drawer\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "currentRoom",
+                            "=",
+                            "\"bedroom\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "currentRoom",
+                            "=",
+                            "\"chest\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "currentRoom",
+                            "=",
+                            "\"bedroom\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 }
               ]
             }
@@ -1717,7 +1738,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "External Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2174,6 +2195,159 @@
             "visibleGUIname",
             "=",
             "\"narratorbox\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisBouton"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "remove_coin",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "InventoryItemHandle[\"removeItem?\"]",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "InventoryItemHandle.quantity",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "InventoryItemHandle.item_name",
+                "=",
+                "\"yellow_key\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "GroupExists"
+          },
+          "parameters": [
+            "\"inventory_save\"",
+            "\"numberofitems1\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "LireFichierExp"
+          },
+          "parameters": [
+            "\"inventory_save\"",
+            "\"numberofitems1\"",
+            "",
+            "numberofitems"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "coin_quantity_storage",
+            "=",
+            "VariableString(numberofitems)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "coin_quantity_inventory",
+            "=",
+            "ToString(Inventory::Count(\"player_inventory\", \"yellow_key\"))"
           ],
           "subInstructions": []
         }

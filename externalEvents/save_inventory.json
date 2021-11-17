@@ -60,6 +60,18 @@
             "Inventory::Count(\"player_inventory\", inventory_slot.VariableString(item_name))"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"inventory_save\"",
+            "\"animation\" + ToString(inventory_slot.Variable(ID))",
+            "inventory_slot.Animation()"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []

@@ -1162,114 +1162,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v7.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v8.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v9.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v10.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v11.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v12.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/50 lateral no clothes/50 Pedro Caminar lateral sin ropas v13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\50 lateral no clothes\\50 Pedro Caminar lateral sin ropas v13.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/characters/pedro/54 down no clothes/54 Pedro Abajo Sin Ropas v2.png",
         "kind": "image",
         "metadata": "",
@@ -2629,28 +2521,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/interface/Inventory/empty_item.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\interface\\Inventory\\empty_item.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/interface/Inventory/mask_inventory.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\interface\\Inventory\\inventory_mask.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/interface/Inventory/maskk_inventory.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\interface\\Inventory\\maskk_inventory.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -3652,150 +3526,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside5.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside7.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside8.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside9.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside10.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside11.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside12.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside13.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside14.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside15.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Language Adventures Assets/Characters/Closeups/Peter_CloseUps/Outside/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Language Adventures Assets\\Characters\\Closeups\\Peter_CloseUps\\Outside\\Peter_CloseUp_Speaking_Outside\\Peter_CloseUp_Speaking_Outside16.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/characters/pedro/closeUps/Peter_CloseUp_Speaking_Outside/Peter_CloseUp_Speaking_Outside1.png",
         "kind": "image",
         "metadata": "",
@@ -4458,78 +4188,6 @@
         "metadata": "",
         "name": "assets\\characters\\pedro\\closeUps\\Peter_CloseUp_Speaking_Outside\\pedro v2 emilia que paso20.png",
         "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/Player/PEDR1.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\Player\\PEDR1.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/Player/PEDR2.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\Player\\PEDR2.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/Emily/EMIL1.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\Emily\\EMIL1.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/Player/PEDR4.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\Player\\PEDR4.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/Emily/EMIL2.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\Emily\\EMIL2.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/Emily/EMIL3.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\Emily\\EMIL3.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/Player/PEDR5.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\Player\\PEDR5.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/speech/Player/PEDR6.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\speech\\Player\\PEDR6.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -5258,87 +4916,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida81.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/closeUps/CS 01 - 03 Pedro v2 - Princesa Perdida/CS 01 - 03 Pedro v2 - Princesa Perdida82.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida82.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/closeUps/CS 01 - 03 Pedro v2 - Princesa Perdida/CS 01 - 03 Pedro v2 - Princesa Perdida83.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida83.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/closeUps/CS 01 - 03 Pedro v2 - Princesa Perdida/CS 01 - 03 Pedro v2 - Princesa Perdida84.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida84.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/closeUps/CS 01 - 03 Pedro v2 - Princesa Perdida/CS 01 - 03 Pedro v2 - Princesa Perdida85.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida85.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/closeUps/CS 01 - 03 Pedro v2 - Princesa Perdida/CS 01 - 03 Pedro v2 - Princesa Perdida86.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida86.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/closeUps/CS 01 - 03 Pedro v2 - Princesa Perdida/CS 01 - 03 Pedro v2 - Princesa Perdida87.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida87.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/closeUps/CS 01 - 03 Pedro v2 - Princesa Perdida/CS 01 - 03 Pedro v2 - Princesa Perdida88.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida88.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/closeUps/CS 01 - 03 Pedro v2 - Princesa Perdida/CS 01 - 03 Pedro v2 - Princesa Perdida89.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida89.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/closeUps/CS 01 - 03 Pedro v2 - Princesa Perdida/CS 01 - 03 Pedro v2 - Princesa Perdida90.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\closeUps\\CS 01 - 03 Pedro v2 - Princesa Perdida\\CS 01 - 03 Pedro v2 - Princesa Perdida90.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -12028,10 +11605,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
@@ -16796,6 +16373,86 @@
         "b": 255,
         "g": 255,
         "r": 255
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "coin_quantity_storage",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "coin_quantity_storage",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "remove_coin",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "remove_coin",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "coin_quantity_slot",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "coin_quantity_slot",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "coin_quantity_inventory",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "coin_quantity_inventory",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
       }
     }
   ],
