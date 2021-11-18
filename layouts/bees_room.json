@@ -565,18 +565,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"outside_bedroom\"",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarGlobalTxt"
               },
               "parameters": [
@@ -595,6 +583,18 @@
                 "previousRoom",
                 "=",
                 "\"bees_room\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"outside_bedroom\"",
+                "yes"
               ],
               "subInstructions": []
             }

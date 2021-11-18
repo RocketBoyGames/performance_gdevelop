@@ -88,7 +88,7 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "coin_quantity_slot",
+                "interactingWith",
                 "=",
                 "\"save exist =1\""
               ],

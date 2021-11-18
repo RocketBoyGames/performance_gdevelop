@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2099999877929687,
+    "zoomFactor": 0.4099999755859375,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -5016,18 +5016,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"bees_room\"",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarGlobalTxt"
               },
               "parameters": [
@@ -5046,6 +5034,18 @@
                 "previousRoom",
                 "=",
                 "\"outside_bedroom\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"bees_room\"",
+                "yes"
               ],
               "subInstructions": []
             }
@@ -5225,18 +5225,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"bedroom\"",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarGlobalTxt"
               },
               "parameters": [
@@ -5255,6 +5243,18 @@
                 "previousRoom",
                 "=",
                 "\"outside_bedroom\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"bedroom\"",
+                "yes"
               ],
               "subInstructions": []
             }

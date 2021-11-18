@@ -350,7 +350,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Camera management",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1372,7 +1372,7 @@
       "events": [
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1738,7 +1738,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "External Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1797,7 +1797,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Hotspot name hover",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1862,7 +1862,7 @@
                     "=",
                     "MouseX(,)",
                     "=",
-                    "MouseY(,)-70"
+                    "MouseY(,)-75"
                   ],
                   "subInstructions": []
                 },
@@ -2202,7 +2202,7 @@
       "events": []
     },
     {
-      "disabled": false,
+      "disabled": true,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -2288,7 +2288,7 @@
       ]
     },
     {
-      "disabled": false,
+      "disabled": true,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -2334,7 +2334,7 @@
       "events": []
     },
     {
-      "disabled": false,
+      "disabled": true,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
@@ -2345,7 +2345,7 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "coin_quantity_inventory",
+            "animation",
             "=",
             "ToString(Inventory::Count(\"player_inventory\", \"yellow_key\"))"
           ],
