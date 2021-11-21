@@ -21,7 +21,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "D:\\PEDRO\\Engine Tests\\performance_gdevelopHTML",
+    "latestCompilationDirectory": "D:\\PEDRO\\Engine Tests\\performance_gdevelopHTML\\performance_gdevelopHTML",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -482,681 +482,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\scenes\\bedroom\\door\\Pedros House Door5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa7.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa8.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa9.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa10.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa11.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa12.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa13.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa14.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa15.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa16.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa17.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa18.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa19.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa20.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa21.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa22.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa22.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa23.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa23.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa24.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa24.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa25.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa25.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa26.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa26.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa27.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa27.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa28.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa28.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa29.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa30.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa30.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa31.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa31.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa32.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa32.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa33.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa33.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa34.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa34.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa35.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa35.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa36.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa37.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa37.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa38.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa38.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa39.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa39.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa40.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa41.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa41.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa42.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa42.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa43.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa43.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa44.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa44.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa45.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa45.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa46.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa46.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa47.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa47.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa48.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa48.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa49.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa49.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa50.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa50.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa51.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa51.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa52.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa52.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa53.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa53.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa54.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa54.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa55.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa55.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa56.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa56.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa57.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa57.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa58.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa58.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa59.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa59.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa60.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa60.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa61.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa61.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa62.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa62.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa63.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa63.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa64.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa64.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa65.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa65.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa66.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa66.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa67.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa67.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa68.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa68.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa69.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa69.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa70.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa70.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa71.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa71.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa72.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa73.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa73.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa74.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa74.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/pedro/140 Pedro Idle sin Ropa/140 Pedro Idle sin Ropa75.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\pedro\\140 Pedro Idle sin Ropa\\140 Pedro Idle sin Ropa75.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -2457,13 +1782,6 @@
         "userAdded": true
       },
       {
-        "file": "assets/fonts/PressStart2P-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\PressStart2P-Regular.ttf",
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/interface/narrator_windows_text.png",
         "kind": "image",
@@ -2473,24 +1791,10 @@
         "userAdded": true
       },
       {
-        "file": "assets/fonts/DotGothic16-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\fonts\\DotGothic16-Regular.ttf",
-        "userAdded": true
-      },
-      {
         "file": "assets/fonts/VT323-Regular.ttf",
         "kind": "font",
         "metadata": "",
         "name": "assets\\fonts\\VT323-Regular.ttf",
-        "userAdded": true
-      },
-      {
-        "file": "assets/fonts/PressStart2P-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\fonts\\PressStart2P-Regular.ttf",
         "userAdded": true
       },
       {
@@ -8066,6 +7370,303 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\characters\\pedro\\14_Peter_Talk_Right\\14_Peter_Talk_Right30.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR246.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR246.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR245.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR245.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR253.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR253.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR126.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR126.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR124.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR124.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/door/Pedros House Door2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\door\\Pedros House Door2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/door/Pedros House Door3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\door\\Pedros House Door3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/door/Pedros House Door4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\door\\Pedros House Door4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR123.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR123.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR125.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR125.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR127.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR127.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pan cerca.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pan cerca.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR104.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR104.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR106.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR106.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR105.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR105.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR129.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR129.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR234.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR234.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR239.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR239.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR240.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR240.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR236.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR236.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR238.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR238.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR264.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR264.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR235.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR235.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR242.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR242.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR243.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR243.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR252.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR252.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR248.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR248.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR247.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR247.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/speech/Narrator/NARR249.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\speech\\Narrator\\NARR249.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Cursors/cursor_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Cursors\\cursor_right.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Cursors/cursor_left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Cursors\\cursor_left.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Cursors/cursor_up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Cursors\\cursor_up.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Cursors/cursor_down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Cursors\\cursor_down.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -15724,198 +15325,6 @@
           ]
         },
         {
-          "name": "walk_active",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\interface\\Cursors\\01 Caminar4 active.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 42.07406997680664,
-                    "y": 58.07407760620117
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 42.07406997680664,
-                    "y": 58.07407760620117
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 36.13333511352539,
-                        "y": 51.86667251586914
-                      },
-                      {
-                        "x": 76.13334655761719,
-                        "y": 28.26667022705078
-                      },
-                      {
-                        "x": 81.73334503173828,
-                        "y": 63.733341217041016
-                      },
-                      {
-                        "x": 35.73333740234375,
-                        "y": 63.733341217041016
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "look_active",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\interface\\Cursors\\02 Mirrar4 active.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 41.33331298828125,
-                    "y": 50
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 40.74073791503906,
-                    "y": 49.629634857177734
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 35.333335876464844,
-                        "y": 44.133338928222656
-                      },
-                      {
-                        "x": 63.73334503173828,
-                        "y": 34.133338928222656
-                      },
-                      {
-                        "x": 58.13334655761719,
-                        "y": 75.33334350585938
-                      },
-                      {
-                        "x": 35.73333740234375,
-                        "y": 55.733341217041016
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "use_active",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\interface\\Cursors\\03 Usar4b active.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 29.33331298828125,
-                    "y": 14
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 29.185182571411133,
-                    "y": 13.629632949829102
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 23.73333740234375,
-                        "y": 8.533337593078613
-                      },
-                      {
-                        "x": 51.73334503173828,
-                        "y": 7.466669082641602
-                      },
-                      {
-                        "x": 55.33334732055664,
-                        "y": 37.33333969116211
-                      },
-                      {
-                        "x": 16.93333625793457,
-                        "y": 39.86667251586914
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "talk_active",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\interface\\Cursors\\04 Hablar4active.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 42.07406997680664,
-                    "y": 45.925933837890625
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 42.07406997680664,
-                    "y": 45.629634857177734
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 36.13333511352539,
-                        "y": 41.86667251586914
-                      },
-                      {
-                        "x": 78.5333480834961,
-                        "y": 32.26667022705078
-                      },
-                      {
-                        "x": 70.5333480834961,
-                        "y": 64.13333892822266
-                      },
-                      {
-                        "x": 35.73333740234375,
-                        "y": 51.86667251586914
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "wait",
           "useMultipleDirections": false,
           "directions": [
@@ -16131,6 +15540,227 @@
                     "y": 30.060609817504883
                   },
                   "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pointer_right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\cursor_right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 51.151512145996094,
+                    "y": 25.87879180908203
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 50.78787612915039,
+                    "y": 25.87879180908203
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk_active",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\interface\\Cursors\\01 Caminar4 active.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 42.07406997680664,
+                    "y": 58.07407760620117
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 42.07406997680664,
+                    "y": 58.07407760620117
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 36.13333511352539,
+                        "y": 51.86667251586914
+                      },
+                      {
+                        "x": 76.13334655761719,
+                        "y": 28.26667022705078
+                      },
+                      {
+                        "x": 81.73334503173828,
+                        "y": 63.733341217041016
+                      },
+                      {
+                        "x": 35.73333740234375,
+                        "y": 63.733341217041016
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "look_active",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\interface\\Cursors\\02 Mirrar4 active.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 41.33331298828125,
+                    "y": 50
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 40.74073791503906,
+                    "y": 49.629634857177734
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.333335876464844,
+                        "y": 44.133338928222656
+                      },
+                      {
+                        "x": 63.73334503173828,
+                        "y": 34.133338928222656
+                      },
+                      {
+                        "x": 58.13334655761719,
+                        "y": 75.33334350585938
+                      },
+                      {
+                        "x": 35.73333740234375,
+                        "y": 55.733341217041016
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "use_active",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\interface\\Cursors\\03 Usar4b active.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 29.33331298828125,
+                    "y": 14
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 29.185182571411133,
+                    "y": 13.629632949829102
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.73333740234375,
+                        "y": 8.533337593078613
+                      },
+                      {
+                        "x": 51.73334503173828,
+                        "y": 7.466669082641602
+                      },
+                      {
+                        "x": 55.33334732055664,
+                        "y": 37.33333969116211
+                      },
+                      {
+                        "x": 16.93333625793457,
+                        "y": 39.86667251586914
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "talk_active",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\interface\\Cursors\\04 Hablar4active.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 42.07406997680664,
+                    "y": 45.925933837890625
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 42.07406997680664,
+                    "y": 45.629634857177734
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 36.13333511352539,
+                        "y": 41.86667251586914
+                      },
+                      {
+                        "x": 78.5333480834961,
+                        "y": 32.26667022705078
+                      },
+                      {
+                        "x": 70.5333480834961,
+                        "y": 64.13333892822266
+                      },
+                      {
+                        "x": 35.73333740234375,
+                        "y": 51.86667251586914
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -17173,6 +16803,93 @@
                     "name": "centre",
                     "x": 0,
                     "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pointer_left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\cursor_left.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 3.5151479244232178,
+                    "y": 25.515153884887695
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 3.5151479244232178,
+                    "y": 25.151517868041992
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pointer_up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\cursor_up.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 25.878786087036133,
+                    "y": 2.7878806591033936
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 25.878786087036133,
+                    "y": 2.7878806591033936
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pointer_down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Cursors\\cursor_down.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 25.878786087036133,
+                    "y": 52.242435455322266
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 25.878786087036133,
+                    "y": 52.242435455322266
                   },
                   "customCollisionMask": []
                 }
@@ -19756,11 +19473,6 @@
       "value": "none"
     },
     {
-      "name": "clickOnUI",
-      "type": "boolean",
-      "value": false
-    },
-    {
       "name": "isFullscreen",
       "type": "boolean",
       "value": false
@@ -19828,6 +19540,11 @@
     },
     {
       "name": "hasClothes",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "onVisibleClickableButton",
       "type": "boolean",
       "value": false
     }

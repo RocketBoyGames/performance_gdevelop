@@ -182,137 +182,6 @@
       "folded": false,
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Check if click on buttons",
-      "comment2": ""
-    },
-    {
-      "disabled": false,
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Layer"
-          },
-          "parameters": [
-            "Cursor",
-            "\"Cursor\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "buttons",
-                "",
-                "yes",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "clickOnUI",
-                "="
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "buttons",
-                "",
-                "yes",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "clickOnUI",
-                "True"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
         "b": 35,
         "g": 166,
         "r": 245,
@@ -708,14 +577,14 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Hide/Show UIs ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1001,7 +870,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Narrator Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1352,6 +1221,14 @@
                   "subInstructions": []
                 }
               ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
               "events": []
             }
           ]
@@ -1797,7 +1674,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Hotspot name hover",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1836,6 +1713,17 @@
                     "MouseX()",
                     "MouseY()",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "Cursor",
+                    "\"Cursor\""
                   ],
                   "subInstructions": []
                 }
@@ -1907,6 +1795,14 @@
                       "subInstructions": []
                     }
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -1968,7 +1864,7 @@
                         "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "clickOnUI",
+                        "onVisibleClickableButton",
                         "="
                       ],
                       "subInstructions": []
@@ -2016,7 +1912,7 @@
                         "value": "DeviceVibration::StartVibration"
                       },
                       "parameters": [
-                        "100"
+                        "50"
                       ],
                       "subInstructions": []
                     }
@@ -2147,7 +2043,7 @@
             "value": "GlobalVariableAsBoolean"
           },
           "parameters": [
-            "clickOnUI",
+            "onVisibleClickableButton",
             "False"
           ],
           "subInstructions": []
@@ -2202,40 +2098,68 @@
       "events": []
     },
     {
-      "disabled": true,
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Check if mouse is on visible & clickeable buttons",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "buttons",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "onVisibleClickableButton",
+            "False"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
             "inverted": false,
-            "value": "SourisBouton"
+            "value": "LayerVisible"
           },
           "parameters": [
             "",
-            "Left"
+            "\"Iconbar\""
           ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "remove_coin",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -2245,7 +2169,32 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "buttons",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Layer"
+              },
+              "parameters": [
+                "buttons",
+                "\"Iconbar\""
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -2253,32 +2202,8 @@
                 "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "InventoryItemHandle[\"removeItem?\"]",
+                "onVisibleClickableButton",
                 "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "InventoryItemHandle.quantity",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "InventoryItemHandle.item_name",
-                "=",
-                "\"yellow_key\""
               ],
               "subInstructions": []
             }
@@ -2288,71 +2213,136 @@
       ]
     },
     {
-      "disabled": true,
+      "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
             "inverted": false,
-            "value": "GroupExists"
+            "value": "LayerVisible"
           },
           "parameters": [
-            "\"inventory_save\"",
-            "\"numberofitems1\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "LireFichierExp"
-          },
-          "parameters": [
-            "\"inventory_save\"",
-            "\"numberofitems1\"",
             "",
-            "numberofitems"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "coin_quantity_storage",
-            "=",
-            "VariableString(numberofitems)"
+            "\"Inventory\""
           ],
           "subInstructions": []
         }
       ],
-      "events": []
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "buttons",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Layer"
+              },
+              "parameters": [
+                "buttons",
+                "\"Inventory\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "onVisibleClickableButton",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     },
     {
-      "disabled": true,
+      "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "conditions": [
         {
           "type": {
             "inverted": false,
-            "value": "TextObject::String"
+            "value": "LayerVisible"
           },
           "parameters": [
-            "animation",
-            "=",
-            "ToString(Inventory::Count(\"player_inventory\", \"yellow_key\"))"
+            "",
+            "\"ExitPopup\""
           ],
           "subInstructions": []
         }
       ],
-      "events": []
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "buttons",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Layer"
+              },
+              "parameters": [
+                "buttons",
+                "\"ExitPopup\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "onVisibleClickableButton",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     }
   ]
 }
