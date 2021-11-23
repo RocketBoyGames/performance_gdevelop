@@ -1,0 +1,10 @@
+inventory
+isItemAdded
+hasClothes
+currentRoom
+previousRoom
+active_inventory
+
+isBedroomChestUnlocked
+
+hasBeenOutsideBedRoom

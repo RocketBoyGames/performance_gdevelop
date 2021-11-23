@@ -1,6 +1,11 @@
-1 footsteps
+1 player footsteps
 2 atmosphere
 3 narrator speech
 4 music
 5 buttons
-6 characters speech
+6 characters speech(popups?)
+7 sound effects
+8 pedros' sound effects
+9 more sound effects (that need to be play at the same time with other sounds in channel 7)
+10 player speech
+11 character speech
