@@ -8,3 +8,4 @@ active_inventory
 isBedroomChestUnlocked
 
 hasBeenOutsideBedRoom
+isOutsideCornPlant
