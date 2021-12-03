@@ -9,3 +9,4 @@
 9 more sound effects (that need to be play at the same time with other sounds in channel 7)
 10 player speech
 11 character speech
+12 video audios
