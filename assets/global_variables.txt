@@ -1,11 +1,20 @@
 inventory
-isItemAdded
-hasClothes
 currentRoom
 previousRoom
 active_inventory
 
 isBedroomChestUnlocked
+hasClothes
+isItemAdded.coin
+isItemAdded.yellow_key
+isItemAdded.bread
+isItemAdded.trophy
+isItemAdded.empty_bottle
 
 hasBeenOutsideBedRoom
 isOutsideCornPlant
+isItemAdded.rock
+
+
+isBanditDefeated
+isBanditOut
