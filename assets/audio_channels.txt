@@ -5,8 +5,9 @@
 5 buttons
 6 characters speech(popups?)
 7 sound effects
-8 pedros' sound effects
-9 more sound effects (that need to be play at the same time with other sounds in channel 7)
+8 player' sound effects
+9 sound effects (that need to be play at the same time with other sounds in channel 7)
 10 player speech
 11 character speech
 12 video audios
+13 sound effects (constant)
