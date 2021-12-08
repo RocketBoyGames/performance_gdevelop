@@ -18,3 +18,5 @@ isItemAdded.rock
 
 isBanditDefeated
 isBanditOut
+isItemAdded.knife
+isItemAdded.honey
