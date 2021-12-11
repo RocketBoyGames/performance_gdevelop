@@ -1,6 +1,7 @@
 inventory
 currentRoom
 previousRoom
+player position
 active_inventory
 
 isBedroomChestUnlocked
@@ -20,3 +21,5 @@ isBanditDefeated
 isBanditOut
 isItemAdded.knife
 isItemAdded.honey
+
+isLumberjackLeftFree
