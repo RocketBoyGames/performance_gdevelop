@@ -1,9 +1,11 @@
+GENERAL
 inventory
 currentRoom
 previousRoom
 player position
 active_inventory
 
+BEDROOM
 isBedroomChestUnlocked
 hasClothes
 isItemAdded.coin
@@ -12,14 +14,24 @@ isItemAdded.bread
 isItemAdded.trophy
 isItemAdded.empty_bottle
 
+OUTSIDE BEDRROM
 hasBeenOutsideBedRoom
 isOutsideCornPlant
 isItemAdded.rock
 
-
+BEE ROOM
 isBanditDefeated
 isBanditOut
 isItemAdded.knife
 isItemAdded.honey
 
+LUMBERJACK ROOM
 isLumberjackLeftFree
+
+TOWN
+isDrunkDefeated
+isItemAdded.lid
+isItemAdded.alcohol
+
+GUILD
+isKnifeTrained
