@@ -35,3 +35,6 @@ isItemAdded.alcohol
 
 GUILD
 isKnifeTrained
+
+CLIFF
+isVineCut
