@@ -36,5 +36,8 @@ isItemAdded.alcohol
 GUILD
 isKnifeTrained
 
+CASTLE VIEW
+isItemAdded.glasses
+
 CLIFF
 isVineCut

@@ -13,3 +13,4 @@
 13 sound effects (constant)
 14 character speech
 15 character speech
+16 character speech
