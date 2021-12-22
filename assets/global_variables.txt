@@ -4,6 +4,8 @@ currentRoom
 previousRoom
 player position
 active_inventory
+missions[]
+hasSouthMap
 
 BEDROOM
 isBedroomChestUnlocked
