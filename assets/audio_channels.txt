@@ -2,7 +2,7 @@
 2 atmosphere
 3 narrator speech
 4 music
-5 buttons
+5 buttons (hover, click)
 6 characters speech(popups?)
 7 sound effects
 8 player' sound effects
@@ -14,3 +14,4 @@
 14 character speech
 15 character speech
 16 character speech
+17 buttons (narrator)

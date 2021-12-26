@@ -1,45 +1,52 @@
+INTRO
+(bool) no_slots
+(str) slot1.String()
+(str) slot2.String()
+(str) slot3.String()
+
 GENERAL
+(str) currentRoom
+(str) previousRoom
+(int) player position
+(str) active_inventory
+(str) missions[] (none, assigned, completed)
+(bool) hasSouthMap
+
 inventory
-currentRoom
-previousRoom
-player position
-active_inventory
-missions[]
-hasSouthMap
 
 BEDROOM
-isBedroomChestUnlocked
-hasClothes
-isItemAdded.coin
-isItemAdded.yellow_key
-isItemAdded.bread
-isItemAdded.trophy
-isItemAdded.empty_bottle
+(bool) isBedroomChestUnlocked
+(bool) hasClothes
+(int) isItemAdded.coin
+(int) isItemAdded.yellow_key
+(int) isItemAdded.bread
+(int) isItemAdded.trophy
+(int) isItemAdded.empty_bottle
 
-OUTSIDE BEDRROM
-hasBeenOutsideBedRoom
-isOutsideCornPlant
-isItemAdded.rock
+OUTSIDE BEDROOM
+(bool) hasBeenOutsideBedRoom
+(bool) isOutsideCornPlant
+(int) isItemAdded.rock
 
-BEE ROOM
-isBanditDefeated
-isBanditOut
-isItemAdded.knife
-isItemAdded.honey
+BEE's ROOM
+(bool) isBanditDefeated
+(bool) isBanditOut
+(int) isItemAdded.knife
+(int) isItemAdded.honey
 
 LUMBERJACK ROOM
-isLumberjackLeftFree
+(bool) isLumberjackLeftFree
 
 TOWN
-isDrunkDefeated
-isItemAdded.lid
-isItemAdded.alcohol
+(bool) isDrunkDefeated
+(int) isItemAdded.lid
+(int) isItemAdded.alcohol
 
 GUILD
-isKnifeTrained
+(bool) isKnifeTrained
 
 CASTLE VIEW
-isItemAdded.glasses
+(int) isItemAdded.glasses
 
 CLIFF
-isVineCut
+(bool) isVineCut
