@@ -15,3 +15,4 @@
 15 character speech
 16 character speech
 17 buttons (narrator)
+18 add points
