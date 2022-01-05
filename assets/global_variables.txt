@@ -10,9 +10,17 @@ GENERAL
 (int) player position
 (str) active_inventory
 (str) missions[] (none, assigned, completed)
+(int) isItemAdded.water
+(int) isItemAdded.corn
+(int) isItemAdded.apple
 (bool) hasSouthMap
 
 inventory
+
+OPTIONS
+(int) options.volumeGlobal
+(int) options.volumeMusic
+(str) options.isFullscreen
 
 BEDROOM
 (bool) isBedroomChestUnlocked
@@ -41,6 +49,7 @@ TOWN
 (bool) isDrunkDefeated
 (int) isItemAdded.lid
 (int) isItemAdded.alcohol
+(int) isItemAdded.soup_ingredients
 
 GUILD
 (bool) isKnifeTrained

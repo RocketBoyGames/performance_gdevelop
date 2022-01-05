@@ -28,3 +28,7 @@
 27 cut_vidplant
 28 use_vidplant
 29 add_breadbedroom
+30 give_corn
+31 give_carrot
+32 give_mushroom
+33 give_tomato
