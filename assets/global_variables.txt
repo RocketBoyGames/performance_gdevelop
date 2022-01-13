@@ -4,6 +4,11 @@ INTRO
 (str) slot2.String()
 (str) slot3.String()
 
+OPTIONS
+(int) options.volumeGlobal
+(int) options.volumeMusic
+(str) options.isFullscreen
+
 GENERAL
 (str) currentRoom
 (str) previousRoom
@@ -16,11 +21,6 @@ GENERAL
 (bool) hasSouthMap
 
 inventory
-
-OPTIONS
-(int) options.volumeGlobal
-(int) options.volumeMusic
-(str) options.isFullscreen
 
 BEDROOM
 (bool) isBedroomChestUnlocked
