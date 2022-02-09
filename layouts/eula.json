@@ -77,15 +77,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 69,
       "layer": "",
       "locked": false,
       "name": "goToGame",
       "persistentUuid": "052a661c-06c9-4b3f-8b16-7b2630788aa7",
-      "width": 0,
-      "x": 1175,
-      "y": 660,
+      "width": 120,
+      "x": 1131,
+      "y": 637,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -158,7 +158,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]END USER LICENSE AGREEMENT[/b]\n\nBY DOWNLOADING, INSTALLATION AND/OR USE OF THIS GAME THE USER AGREES TO THE TERMS SET FORTH HEREIN.\n\n*WARNING:\nA VERY SMALL PERCENTAGE OF INDIVIDUALS MAY EXPERIENCE EPILEPTIC SEIZURES OR BLACKOUTS WHEN EXPOSED TO CERTAIN LIGHT PATTERNS OR FLASHING LIGHTS. EXPOSURE TO CERTAIN PATTERNS OR BACKGROUNDS ON A COMPUTER SCREEN OR WHEN PLAYING VIDEO GAMES MAY TRIGGER EPILEPTIC SEIZURES OR BLACKOUTS IN THESE INDIVIDUALS. THESE CONDITIONS MAY TRIGGER PREVIOUSLY UNDETECTED EPILEPTIC SYMPTOMS OR SEIZURES IN PERSONS WHO HAVE NO HISTORY OF PRIOR SEIZURES OR EPILEPSY. IF YOU, OR ANYONE IN YOUR FAMILY HAS AN EPILEPTIC CONDITION OR HAS HAD SEIZURES OF ANY KIND, CONSULT YOUR PHYSICIAN BEFORE PLAYING.\n\nBE AWARE OF ANY POTENTIAL HAZARDS IN YOUR ENVIRONMENT PARTICULARlY WHILE PLAYING ON MOBILE DEVICES. IT IS YOUR RESPONSIBILITY TO CONTROL YOUR SURROUNDINGS AND MOVEMENTS AT ALL TIMES WHILE PLAYING TO ENSURE YOU DONT INJURE YOURSELF, ANY OTHER PERSONS, DAMAGE ANY PROPERTY ETC. FALLILNG, STRIKING OR OTHERWISE CONTACTING ANYTHING WHILE PLAYING THE GAME MAY LEAD TO PERSONAL INJURY, PROPERTY DAMAGES AND EVEN CAUSE DEATH.\n\nNEITHER ROCKET BOY GAMES (COMPANY) OR VOCES DIGITAL (DISTRIBUTOR) TAKE RESPONSIBILITY FOR SUCH EFFECTS IN THE GAME AND END RESULTS THEREOF AND YOU ARE ACCESSING AND PLAYING THE GAME AT YOUR OWN RISK.\n\nBY ACCESSING THE GAME THE USER CONFIRMS AND DECLARES, THAT THEY ARE:\n• ACCEPTING THE RESPONSIBILTY OF THEIR PERSONAL SAFETY.\n• ACCEPTING THE POSSIBILITY OF DATA LOSS.\n• ACCEPTING ALL PROVISIONS OF THIS LICENCE (EULA).\n\n1. This license agreement (End User License Agreement - hereinafter \"EULA\") is applicable for using the game under the name of Pedro's Adventures in Spanish™ (hereinafter “GAME”) by any end user (hereinafter “USER”) with the use of Internet and the hardware of the User.\n2. Rocket Boy Games is a producer of the game (hereinafter \"COMPANY\").\n3. GAME is distributed through the Voces Digital platform (hereinafter \"DISTRIBUTOR\").\n4. The rights to the GAME including copyrights are held solely by the COMPANY.\n5. Neither the COMPANY or DISTRIBUTOR is bearing responsibility for results of the USER in the GAME.\n6. The USER is incurring the full liability for his/hers medical condition and the psychological condition as part of playing the GAME and using services of the COMPANY and DISTRIBUTOR.",
+        "text": "[b]END USER LICENSE AGREEMENT[/b]\n\nBY DOWNLOADING, INSTALLATION AND/OR USE OF THIS GAME THE USER AGREES TO THE TERMS SET FORTH HEREIN.\n\n*WARNING:\nA VERY SMALL PERCENTAGE OF INDIVIDUALS MAY EXPERIENCE EPILEPTIC SEIZURES OR BLACKOUTS WHEN EXPOSED TO CERTAIN LIGHT PATTERNS OR FLASHING LIGHTS. EXPOSURE TO CERTAIN PATTERNS OR BACKGROUNDS ON A COMPUTER SCREEN OR WHEN PLAYING VIDEO GAMES MAY TRIGGER EPILEPTIC SEIZURES OR BLACKOUTS IN THESE INDIVIDUALS. THESE CONDITIONS MAY TRIGGER PREVIOUSLY UNDETECTED EPILEPTIC SYMPTOMS OR SEIZURES IN PERSONS WHO HAVE NO HISTORY OF PRIOR SEIZURES OR EPILEPSY. IF YOU, OR ANYONE IN YOUR FAMILY HAS AN EPILEPTIC CONDITION OR HAS HAD SEIZURES OF ANY KIND, CONSULT YOUR PHYSICIAN BEFORE PLAYING.\n\nBE AWARE OF ANY POTENTIAL HAZARDS IN YOUR ENVIRONMENT PARTICULARlY WHILE PLAYING ON MOBILE DEVICES. IT IS YOUR RESPONSIBILITY TO CONTROL YOUR SURROUNDINGS AND MOVEMENTS AT ALL TIMES WHILE PLAYING TO ENSURE YOU DONT INJURE YOURSELF, ANY OTHER PERSONS, DAMAGE ANY PROPERTY ETC. FALLILNG, STRIKING OR OTHERWISE CONTACTING ANYTHING WHILE PLAYING THE GAME MAY LEAD TO PERSONAL INJURY, PROPERTY DAMAGES AND EVEN CAUSE DEATH.\n\nNEITHER ROCKET BOY GAMES (COMPANY) OR VOCES DIGITAL (DISTRIBUTOR) TAKE RESPONSIBILITY FOR SUCH EFFECTS IN THE GAME AND END RESULTS THEREOF AND YOU ARE ACCESSING AND PLAYING THE GAME AT YOUR OWN RISK.\n\nBY ACCESSING THE GAME THE USER CONFIRMS AND DECLARES, THAT THEY ARE:\n• ACCEPTING THE RESPONSIBILTY OF THEIR PERSONAL SAFETY.\n• ACCEPTING THE POSSIBILITY OF DATA LOSS.\n• ACCEPTING ALL PROVISIONS OF THIS LICENCE (EULA).\n\n1. This license agreement (End User License Agreement - hereinafter \"EULA\") is applicable for using the game under the name of Pedro's Adventures in Spanish™ (hereinafter “GAME”) by any end user (hereinafter “USER”) with the use of Internet and the hardware of the User.\n2. Rocket Boy Games is a producer of the game (hereinafter \"COMPANY\").\n3. GAME is distributed through the Voces Digital platform (hereinafter \"DISTRIBUTOR\").\n4. The rights to the GAME including copyrights are held solely by the COMPANY.\n5. Neither the COMPANY or DISTRIBUTOR is bearing responsibility for results of the USER in the GAME.\n6. The USER is incurring the full liability for his/hers medical condition and the psychological condition \nas part of playing the GAME and using services of the COMPANY and DISTRIBUTOR.",
         "opacity": 255,
         "fontSize": 16,
         "visible": true,
@@ -181,7 +181,7 @@
       "behaviors": [],
       "string": "Go to\ngame➡️",
       "font": "assets\\fonts\\RobotoMono-Regular.ttf",
-      "characterSize": 20,
+      "characterSize": 30,
       "color": {
         "b": 33,
         "g": 211,
@@ -190,6 +190,204 @@
     }
   ],
   "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "agree"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "checkboxAgree"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "EULAtext"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "goToGame"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "settings.hasOpenedGame",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"intro_page\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "settings.hasOpenedGame",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "agree",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "checkboxAgree",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "goToGame",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "EULAtext",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "settings.hasOpenedGame",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"saved_games\"",
+                "\"settings\"",
+                "GlobalVarToJSON(settings)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
     {
       "disabled": false,
       "folded": false,

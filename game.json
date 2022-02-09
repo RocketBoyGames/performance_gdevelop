@@ -29,7 +29,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "assets\\interface\\RBG boy text and transparent.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
@@ -39,7 +39,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "authorIds": [
@@ -69661,6 +69661,11 @@
       "type": "structure",
       "children": [
         {
+          "name": "hasOpenedGame",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "isFullscreen",
           "type": "boolean",
           "value": false
@@ -69688,7 +69693,7 @@
         {
           "name": "volumeGlobal",
           "type": "number",
-          "value": 100
+          "value": 50
         },
         {
           "name": "volumeMusic",
