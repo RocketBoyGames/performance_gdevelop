@@ -205,7 +205,7 @@
     },
     {
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -381,7 +381,7 @@
     },
     {
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3577,7 +3577,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Fisherman Speech",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4150,103 +4150,6 @@
           "parameters": [
             "\"isLumberjackLeftFree\"",
             "1"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": true,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "Visible"
-          },
-          "parameters": [
-            "fisherman_dialogue"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "testText2",
-            "=",
-            "\"is NOT visible\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": true,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Visible"
-          },
-          "parameters": [
-            "fisherman_dialogue"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "testText2",
-            "=",
-            "\"is visible\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": true,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "fishermanSpeech",
-            "=",
-            "DialogueTree::Variable(\"fishermanSpeech\")"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "testText",
-            "=",
-            "ToString(Variable(fishermanSpeech))"
           ],
           "subInstructions": []
         }

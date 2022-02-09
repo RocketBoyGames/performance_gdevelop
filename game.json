@@ -42,7 +42,9 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
-    "authorIds": [],
+    "authorIds": [
+      "bIVDTdF3ROZzKb28UuWKgeHf9dX2"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -26683,6 +26685,528 @@
         "metadata": "",
         "name": "dialogues.json",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/voces logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\voces logo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle29.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle30.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle31.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle33.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle35.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle37.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle38.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle39.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle40.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle42.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle43.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle44.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle45.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle46.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle47.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle49.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle50.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle51.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle52.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/Ogre/Trol Idle/Trol Idle53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\Ogre\\Trol Idle\\Trol Idle53.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/fade-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\fade-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/RBG boy text and transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\RBG boy text and transparent.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/magic_store.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\magic_store.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/end_demo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\end_demo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -69522,6 +70046,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/room_base"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/thanks_splash"
     }
   ],
   "externalEvents": [
@@ -69572,14 +70100,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/dialogues"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/inv"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/newexternalevents"
     }
   ],
   "eventsFunctionsExtensions": [
