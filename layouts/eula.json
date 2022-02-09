@@ -257,6 +257,59 @@
             {
               "type": {
                 "inverted": false,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"saved_games\"",
+                "\"settings\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LireFichierTxt"
+              },
+              "parameters": [
+                "\"saved_games\"",
+                "\"settings\"",
+                "",
+                "_tempSetings"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "JSONToGlobalVariableStructure"
+              },
+              "parameters": [
+                "VariableString(_tempSetings)",
+                "settings"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
