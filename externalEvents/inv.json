@@ -1,0 +1,50 @@
+{
+  "associatedLayout": "bedroom",
+  "lastChangeTimeStamp": 0,
+  "name": "inv",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "inventory_slot",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "inventory_slot",
+            "item_name",
+            "=",
+            "GlobalVariableString(InventoryItemHandle.item_name)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "InventoryItemHandle.item_name",
+            "=",
+            "\"\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ]
+}

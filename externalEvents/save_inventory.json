@@ -31,7 +31,7 @@
             "value": "EcrireFichierTxt"
           },
           "parameters": [
-            "\"inventory_save\"",
+            "\"inventory_save\"+GlobalVariableString(save_slot)",
             "\"item_name\" + ToString(inventory_slot.Variable(ID))",
             "inventory_slot.VariableString(item_name)"
           ],
@@ -43,7 +43,7 @@
             "value": "EcrireFichierTxt"
           },
           "parameters": [
-            "\"inventory_save\"",
+            "\"inventory_save\"+GlobalVariableString(save_slot)",
             "\"item_description\" + ToString(inventory_slot.Variable(ID))",
             "inventory_slot.VariableString(item_description)"
           ],
@@ -55,7 +55,7 @@
             "value": "EcrireFichierExp"
           },
           "parameters": [
-            "\"inventory_save\"",
+            "\"inventory_save\"+GlobalVariableString(save_slot)",
             "\"numberofitems\" + ToString(inventory_slot.Variable(ID))",
             "Inventory::Count(\"player_inventory\", inventory_slot.VariableString(item_name))"
           ],
@@ -67,13 +67,21 @@
             "value": "EcrireFichierExp"
           },
           "parameters": [
-            "\"inventory_save\"",
+            "\"inventory_save\"+GlobalVariableString(save_slot)",
             "\"animation\" + ToString(inventory_slot.Variable(ID))",
             "inventory_slot.Animation()"
           ],
           "subInstructions": []
         }
       ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
       "events": []
     }
   ]

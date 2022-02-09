@@ -1,29 +1,29 @@
 
-yellow_key
-trophy
-coin
-empty_bottle
-water
-alcohol
-corn
-rock
-knife
-honey
-bread
-apple
-tomato
-carrot
-pumpkin
-sword
-necklace
-soup_ingredients
-map_item
-lid
-mushroom
-rope
-glasses
-soup
-ticket
+1 yellow_key
+2 bread
+3 coin
+4 empty_bottle
+5 trophy
+6 rock
+7 corn
+8 water
+9 knife
+10 honey
+11 glasses
+12 apple
+13 soup_ingredients
+14 alcohol
+15 lid
+16 pumpkin
+17 sword
+18 necklace
+19 map_item
+20 carrot
+21 mushroom
+22 rope
+23 tomato
+24 soup
+25 ticket
 red_gem
 green_gem
 blue_gem

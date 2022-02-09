@@ -323,44 +323,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 48,
-      "layer": "Iconbar",
-      "locked": false,
-      "name": "buttons",
-      "persistentUuid": "a0f41a38-af2a-45eb-bf58-aa6a75624272",
-      "width": 149,
-      "x": 1077,
-      "y": 639,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "button_name",
-          "type": "string",
-          "value": "fullscreen"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 29,
-      "layer": "Iconbar",
-      "locked": false,
-      "name": "Fullscreen",
-      "persistentUuid": "086c664a-9547-4224-baac-7139d03f87ab",
-      "width": 138,
-      "x": 1085,
-      "y": 649,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 100,
       "layer": "NarratorBox",
       "locked": false,
@@ -392,15 +354,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 41.70731735229492,
       "layer": "ExitPopup",
       "locked": false,
       "name": "buttons",
       "persistentUuid": "ca129ae4-2132-4177-90be-d0ded9227436",
-      "width": 0,
-      "x": 33,
-      "y": 615,
+      "width": 95,
+      "x": 593,
+      "y": 662,
       "zOrder": 10,
       "numberProperties": [
         {
@@ -416,6 +378,155 @@
           "value": "exit_popup"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "empty_slot",
+      "persistentUuid": "6e49dce8-afa1-4730-82a1-60446da2a358",
+      "width": 0,
+      "x": 641,
+      "y": 99,
+      "zOrder": 1000000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "external_popups",
+      "persistentUuid": "193cf8d8-8012-4e5f-bed5-2f50b76dd469",
+      "width": 0,
+      "x": 0,
+      "y": -1688,
+      "zOrder": 10,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "mission1",
+      "persistentUuid": "695de0ca-6cc9-4149-b9ea-c379558f2c24",
+      "width": 0,
+      "x": -404,
+      "y": -1511,
+      "zOrder": 1000001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "mission2",
+      "persistentUuid": "4eb6bf7e-3d65-411b-8bfc-92fdd10f8a1b",
+      "width": 0,
+      "x": -515,
+      "y": -1446,
+      "zOrder": 1000002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "mission3",
+      "persistentUuid": "c9e9a6f8-cfbb-49ed-8375-813a2a908ea2",
+      "width": 0,
+      "x": -459,
+      "y": -1382,
+      "zOrder": 1000003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "mission4",
+      "persistentUuid": "794e37c5-6c87-4845-9e82-6bf51c746b14",
+      "width": 0,
+      "x": -451,
+      "y": -1325,
+      "zOrder": 1000004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "mission5",
+      "persistentUuid": "665d52fd-ab1f-4984-a8cd-e25916d18ede",
+      "width": 0,
+      "x": -604,
+      "y": -1275,
+      "zOrder": 1000005,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "external_popups",
+      "persistentUuid": "84cca0c2-639c-462f-9fd9-e87f0e36699b",
+      "width": 0,
+      "x": 1280,
+      "y": -1608,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 180,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "dialogue_hud",
+      "persistentUuid": "eec45b05-3d97-4160-a584-66df4f47b1fc",
+      "width": 1280,
+      "x": 0,
+      "y": 540,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -428,7 +539,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4499999908447285,
+    "zoomFactor": 0.40999997558593754,
     "windowMask": false
   }
 }

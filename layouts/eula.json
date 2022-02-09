@@ -1,0 +1,552 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "EULA",
+  "name": "EULA",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.6599999603271485,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 39,
+      "layer": "",
+      "locked": false,
+      "name": "agree",
+      "persistentUuid": "35311023-6772-4582-b6fd-40800b0d63f9",
+      "width": 817,
+      "x": 344,
+      "y": 665,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 45,
+      "layer": "",
+      "locked": false,
+      "name": "checkboxAgree",
+      "persistentUuid": "11262acc-af0d-4626-8533-dff311876f69",
+      "width": 57,
+      "x": 307,
+      "y": 669,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 634,
+      "layer": "",
+      "locked": false,
+      "name": "EULAtext",
+      "persistentUuid": "6d434134-a13e-4270-a805-c6fbd383970b",
+      "width": 1233,
+      "x": 17,
+      "y": 30,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "goToGame",
+      "persistentUuid": "052a661c-06c9-4b3f-8b16-7b2630788aa7",
+      "width": 0,
+      "x": 1175,
+      "y": 660,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "agree",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "I agree with this END USER LICENSE AGREEMENT",
+        "opacity": 255,
+        "fontSize": 25,
+        "visible": true,
+        "color": "156;240;62",
+        "fontFamily": "assets\\fonts\\RobotoMono-Regular.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "checkboxAgree",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Checkbox",
+          "type": "Checkbox::Checkbox",
+          "Checked": false,
+          "PrimaryColor": "126;211;33",
+          "SecondaryColor": "255;255;255",
+          "SideLength": 28,
+          "LineWidth": 5,
+          "HaloRadius": 0,
+          "ToggleChanged": false,
+          "Disabled": false,
+          "BorderThickness": 2,
+          "HaloOpacityHover": 64,
+          "HaloOpacityPressed": 96
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
+    },
+    {
+      "name": "EULAtext",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]END USER LICENSE AGREEMENT[/b]\n\nBY DOWNLOADING, INSTALLATION AND/OR USE OF THIS GAME THE USER AGREES TO THE TERMS SET FORTH HEREIN.\n\n*WARNING:\nA VERY SMALL PERCENTAGE OF INDIVIDUALS MAY EXPERIENCE EPILEPTIC SEIZURES OR BLACKOUTS WHEN EXPOSED TO CERTAIN LIGHT PATTERNS OR FLASHING LIGHTS. EXPOSURE TO CERTAIN PATTERNS OR BACKGROUNDS ON A COMPUTER SCREEN OR WHEN PLAYING VIDEO GAMES MAY TRIGGER EPILEPTIC SEIZURES OR BLACKOUTS IN THESE INDIVIDUALS. THESE CONDITIONS MAY TRIGGER PREVIOUSLY UNDETECTED EPILEPTIC SYMPTOMS OR SEIZURES IN PERSONS WHO HAVE NO HISTORY OF PRIOR SEIZURES OR EPILEPSY. IF YOU, OR ANYONE IN YOUR FAMILY HAS AN EPILEPTIC CONDITION OR HAS HAD SEIZURES OF ANY KIND, CONSULT YOUR PHYSICIAN BEFORE PLAYING.\n\nBE AWARE OF ANY POTENTIAL HAZARDS IN YOUR ENVIRONMENT PARTICULARlY WHILE PLAYING ON MOBILE DEVICES. IT IS YOUR RESPONSIBILITY TO CONTROL YOUR SURROUNDINGS AND MOVEMENTS AT ALL TIMES WHILE PLAYING TO ENSURE YOU DONT INJURE YOURSELF, ANY OTHER PERSONS, DAMAGE ANY PROPERTY ETC. FALLILNG, STRIKING OR OTHERWISE CONTACTING ANYTHING WHILE PLAYING THE GAME MAY LEAD TO PERSONAL INJURY, PROPERTY DAMAGES AND EVEN CAUSE DEATH.\n\nNEITHER ROCKET BOY GAMES (COMPANY) OR VOCES DIGITAL (DISTRIBUTOR) TAKE RESPONSIBILITY FOR SUCH EFFECTS IN THE GAME AND END RESULTS THEREOF AND YOU ARE ACCESSING AND PLAYING THE GAME AT YOUR OWN RISK.\n\nBY ACCESSING THE GAME THE USER CONFIRMS AND DECLARES, THAT THEY ARE:\n• ACCEPTING THE RESPONSIBILTY OF THEIR PERSONAL SAFETY.\n• ACCEPTING THE POSSIBILITY OF DATA LOSS.\n• ACCEPTING ALL PROVISIONS OF THIS LICENCE (EULA).\n\n1. This license agreement (End User License Agreement - hereinafter \"EULA\") is applicable for using the game under the name of Pedro's Adventures in Spanish™ (hereinafter “GAME”) by any end user (hereinafter “USER”) with the use of Internet and the hardware of the User.\n2. Rocket Boy Games is a producer of the game (hereinafter \"COMPANY\").\n3. GAME is distributed through the Voces Digital platform (hereinafter \"DISTRIBUTOR\").\n4. The rights to the GAME including copyrights are held solely by the COMPANY.\n5. Neither the COMPANY or DISTRIBUTOR is bearing responsibility for results of the USER in the GAME.\n6. The USER is incurring the full liability for his/hers medical condition and the psychological condition as part of playing the GAME and using services of the COMPANY and DISTRIBUTOR.",
+        "opacity": 255,
+        "fontSize": 16,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "assets\\fonts\\RobotoMono-Regular.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "bold": true,
+      "italic": true,
+      "name": "goToGame",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Go to\ngame➡️",
+      "font": "assets\\fonts\\RobotoMono-Regular.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 33,
+        "g": 211,
+        "r": 126
+      }
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "agree",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BBText::SetFontSize"
+              },
+              "parameters": [
+                "agree",
+                "=",
+                "24"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Checkbox::Checkbox::ToggleChecked"
+                  },
+                  "parameters": [
+                    "checkboxAgree",
+                    "Checkbox",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BBText::SetFontSize"
+              },
+              "parameters": [
+                "agree",
+                "=",
+                "25"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Checkbox::Checkbox::IsChecked"
+          },
+          "parameters": [
+            "checkboxAgree",
+            "Checkbox",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "goToGame",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Checkbox::Checkbox::IsChecked"
+          },
+          "parameters": [
+            "checkboxAgree",
+            "Checkbox",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "goToGame"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "goToGame",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"intro_page\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": true,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "EULAtext",
+            "=",
+            "\"II. GAME\n\n1. The rights to the GAME including copyrights are held solely by the COMPANY.\n3. The story of the GAME has abstract character, contributed in the course of the GAME by the USER.\n7. Every infringement by the EULA may cause the COMPANY or DISTRUBUTOR to suspend the USER in rights to use the GAME and the alteration of the account pursuant to the provisions included in EULA.\n8. Neither the COMPANY or DISTRIBUTOR is bearing responsibility for results of the USER in the GAME.\n9. The USER is incurring the full liability for his/hers medical condition and the psychological condition as part of playing the GAME and using services of the COMPANY and DISTRIBUTOR.\n\nIII. INTELLECTUAL PROPERTY\n\n1. Content of the GAME (including any parts of the GAME, among others - central figures of the GAME, objects and accessories of the GAME, graphic images, photographs, animated films, video-animation, video clips, sound records, sound effects, the music, the textual game record, dialogues and other parts of the GAME software) is protected as the subject of the copyright as defined in applicable laws of the US and/or other countries. Usage of materials protected by law without consent of the COMPANY and in the way contrary to EULA results in breaking by the USER EULA conditions and is forbidden.\n3. By playing the GAME the USER apart from obtaining the EULA from the COMPANY is acquiring no further rights to the intellectual property consisting the GAME and/or related with the GAME.\n\n\nIV. LIMITATION OF THE LIABILITY\n\n1. In no event will the COMPANY or DISTRUBTOR be liable to the USER or any third party for any incidental, special, indirect, consequential, exemplary or punitive damages whatsoever, arising out of or related to the GAME, this EULA, the COMPANY intellectual property or any third party services, regardless of the theory of liability (contract, warranty, tort (including negligence, whether active, passive or imputed), product liability, strict liability or other theory), even if the COMPANY and/or DISTRIBUTOR has been advised of the possibility of such damages.\n2. In no event will COMPANY or DISTRUBTOR’S total liability arising out of or related to the GAME, this EULA, the COMPANY intellectual property or any third party services exceed the fees paid by USER to DISTRIBUTOR or COMPANY for the term during which the damages initially arose.\n3. Notwithstanding any terms to the contrary in this EULA, the COMPANY or DISTRIBUTOR will not be liable for any disclosure of, unauthorized use of and/or unauthorized access to any information, data or customer materials unless such disclosure, unauthorized use of and/or unauthorized access solely and directly results from COMPANY or DISTRUBTOR’s gross negligence.\n4. Multiple claims, suits, actions or proceedings will not expand this limitation. The parties agree that the foregoing limitations represent a reasonable allocation of risk under this EULA.\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 7699768,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Checkbox",
+      "type": "Checkbox::Checkbox"
+    },
+    {
+      "name": "DraggableSliderControl",
+      "type": "DraggableSliderControl::DraggableSliderControl"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
+    },
+    {
+      "name": "ShakeObject_PositionAngleScale",
+      "type": "ShakeObject::ShakeObject_PositionAngleScale"
+    },
+    {
+      "name": "StayOnScreen",
+      "type": "StayOnScreen::StayOnScreen"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    },
+    {
+      "name": "YSort",
+      "type": "YSort::YSort"
+    },
+    {
+      "name": "cursor",
+      "type": "MouseHelper::cursor"
+    }
+  ]
+}

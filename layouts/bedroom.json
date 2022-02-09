@@ -9,7 +9,7 @@
   "r": 53,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
-  "title": "other title",
+  "title": "bedroom",
   "v": 53,
   "uiSettings": {
     "grid": false,
@@ -21,10 +21,31 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6099999633789056,
+    "zoomFactor": 0.6099999847412111,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "mission_text",
+      "objects": [
+        {
+          "name": "mission5"
+        },
+        {
+          "name": "mission4"
+        },
+        {
+          "name": "mission3"
+        },
+        {
+          "name": "mission2"
+        },
+        {
+          "name": "mission1"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "topEdge",
@@ -101,7 +122,7 @@
       "width": 0,
       "x": 0,
       "y": 488,
-      "zOrder": 5,
+      "zOrder": 720,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -130,9 +151,9 @@
       "locked": false,
       "name": "hotspots",
       "persistentUuid": "98079c76-164d-4a60-8d3b-24373d94746a",
-      "width": 219,
-      "x": 1049,
-      "y": 253,
+      "width": 286,
+      "x": 1192,
+      "y": 574,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -184,8 +205,8 @@
       "name": "hotspots",
       "persistentUuid": "18ac1325-723c-44d7-bf52-7222aee159e9",
       "width": 507,
-      "x": 13,
-      "y": 654,
+      "x": 279.5,
+      "y": 718,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -221,8 +242,8 @@
       "name": "hotspots",
       "persistentUuid": "7851c809-f298-4dd9-858e-23b39e4ffc76",
       "width": 269,
-      "x": 323,
-      "y": 146,
+      "x": 461.5,
+      "y": 328,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -252,14 +273,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 187,
+      "height": 175,
       "layer": "Hotspots",
       "locked": false,
       "name": "hotspots",
       "persistentUuid": "c412f119-28ac-45f6-bba2-90285e430dc4",
       "width": 88,
-      "x": 71,
-      "y": 171,
+      "x": 119,
+      "y": 347,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -295,8 +316,8 @@
       "name": "hotspots",
       "persistentUuid": "77215ee9-d32f-476c-85bc-96463fea2c3a",
       "width": 593,
-      "x": 696,
-      "y": 656,
+      "x": 987.5,
+      "y": 719,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -332,8 +353,8 @@
       "name": "hotspots",
       "persistentUuid": "95211ad9-e1f4-495f-bb1a-98d6810d2ff3",
       "width": 233,
-      "x": 757,
-      "y": 227,
+      "x": 866.5,
+      "y": 498,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -374,8 +395,8 @@
       "name": "hotspots",
       "persistentUuid": "0430ea8f-c19e-466b-b8a7-a1e9b6baf0cb",
       "width": 301,
-      "x": 316,
-      "y": 392,
+      "x": 466.5,
+      "y": 502,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -418,7 +439,7 @@
       "width": 0,
       "x": 0,
       "y": -888,
-      "zOrder": 48,
+      "zOrder": 0,
       "numberProperties": [
         {
           "name": "animation",
@@ -439,7 +460,7 @@
       "width": 0,
       "x": 427,
       "y": -352,
-      "zOrder": 49,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -455,7 +476,7 @@
       "width": 0,
       "x": 560,
       "y": -350,
-      "zOrder": 50,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -471,7 +492,7 @@
       "width": 0,
       "x": -1280,
       "y": 0,
-      "zOrder": 51,
+      "zOrder": 0,
       "numberProperties": [
         {
           "name": "animation",
@@ -492,7 +513,7 @@
       "width": 0,
       "x": -648,
       "y": 308,
-      "zOrder": 52,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -508,7 +529,7 @@
       "width": 0,
       "x": -974,
       "y": 384,
-      "zOrder": 53,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -522,8 +543,8 @@
       "name": "hotspots",
       "persistentUuid": "877b647f-7c8f-4cdb-8b10-bbf44202cba3",
       "width": 106,
-      "x": 126.8738784790039,
-      "y": 441.8952941894531,
+      "x": 185.94215393066406,
+      "y": 591.1679077148438,
       "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
@@ -614,7 +635,7 @@
       "width": 0,
       "x": -408,
       "y": -91,
-      "zOrder": 57,
+      "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -628,8 +649,8 @@
       "name": "hotspots",
       "persistentUuid": "3a3d37f9-db06-405e-ad36-93d5a4f48609",
       "width": 82,
-      "x": 431,
-      "y": -348,
+      "x": 475,
+      "y": -295,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -665,8 +686,8 @@
       "name": "hotspots",
       "persistentUuid": "61ddfcd4-d021-4938-9313-2fa47b803ee0",
       "width": 139,
-      "x": 569,
-      "y": -339,
+      "x": 637.5,
+      "y": -302,
       "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
@@ -704,7 +725,7 @@
       "width": 166.85714721679688,
       "x": 755.142822265625,
       "y": -360,
-      "zOrder": 62,
+      "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
@@ -723,8 +744,8 @@
       "name": "hotspots",
       "persistentUuid": "65bb4b92-ee7b-48b6-83c6-5b57deab3558",
       "width": 171,
-      "x": 752,
-      "y": -358,
+      "x": 844.5,
+      "y": -290,
       "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
@@ -760,8 +781,8 @@
       "name": "hotspots",
       "persistentUuid": "5597714f-e2eb-459b-b8e7-92cd5c17b2fc",
       "width": 161.2683868408203,
-      "x": -949.9752807617188,
-      "y": 347.5115966796875,
+      "x": -849.341064453125,
+      "y": 622.1703491210938,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -797,8 +818,8 @@
       "name": "hotspots",
       "persistentUuid": "b5e9c9e7-0a88-4d89-b911-735f967aabe3",
       "width": 229.61354064941406,
-      "x": -537.8679809570312,
-      "y": 314.4435729980469,
+      "x": -456.06121826171875,
+      "y": 633.556396484375,
       "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
@@ -827,19 +848,40 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
+      "customSize": true,
+      "height": 190,
+      "layer": "Hotspots",
       "locked": false,
-      "name": "animation",
-      "persistentUuid": "9fcd3160-5903-4bb4-aac1-d94fd3744a8e",
-      "width": 0,
-      "x": 793,
-      "y": 562,
-      "zOrder": 67,
+      "name": "hotspots",
+      "persistentUuid": "29997be5-4d1a-438f-a78e-d1a7cb5c222d",
+      "width": 68,
+      "x": 266,
+      "y": 457,
+      "zOrder": 66,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "plant"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Es tu planta"
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 257
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Planta"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -847,15 +889,57 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "interactingWith",
-      "persistentUuid": "9ecc4d8d-c65e-4f2a-b187-ac55287212d8",
+      "name": "player_dialogue",
+      "persistentUuid": "548822ca-8064-4789-a4be-a4350bf99318",
       "width": 0,
-      "x": 701,
-      "y": 598,
-      "zOrder": 68,
+      "x": 1448,
+      "y": 170,
+      "zOrder": 1001,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 236,
+      "layer": "Hotspots",
+      "locked": false,
+      "name": "hotspots",
+      "persistentUuid": "45537f8c-5497-49e9-b395-dbc111bbfda5",
+      "width": 65,
+      "x": 698.5,
+      "y": 582,
+      "zOrder": 1002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "player"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "narrator_speech",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "cursorLook_specificHandle",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "value": "Pedro"
+        }
+      ]
     }
   ],
   "objects": [
@@ -909,7 +993,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.10000000149011612,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1013,7 +1097,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.15000000596046448,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1911,7 +1995,7 @@
     },
     {
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1946,7 +2030,7 @@
           "parameters": [
             "",
             "assets\\audio\\atmosphere\\01 PedroHabitacionDentra_Atmo.mp3",
-            "2",
+            "12",
             "yes",
             "5",
             "1"
@@ -2062,26 +2146,47 @@
             "assets\\audio\\speech\\buttons\\12 SELECCIONAR.mp3"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "player_dialogue",
+            "\"0;0;0\"",
+            "6"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetTextAlignment"
+          },
+          "parameters": [
+            "player_dialogue",
+            "\"center\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "player_dialogue"
+          ],
+          "subInstructions": []
         }
       ],
       "events": [
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "previousRoom",
-                "=",
-                "\"outside_bedroom\""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -2095,39 +2200,35 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MettreXY"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "Player",
+                "InventoryItemHandle.item_name",
                 "=",
-                "Door.PointX(\"walkToDoor\")",
-                "=",
-                "Door.PointY(\"walkToDoor\")"
+                "\"soup_ingredients\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "MettreXY"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "followPlayer",
-                "=",
-                "Player.X()",
-                "=",
-                "Player.Y()-100"
+                "InventoryItemHandle[\"addItem?\"]",
+                "True"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "FlipX"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "Player",
-                "yes"
+                "InventoryItemHandle.quantity",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -2234,6 +2335,113 @@
               "parameters": [
                 "Player",
                 "\"idle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "previousRoom",
+                "=",
+                "\"outside_bedroom\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Door.PointX(\"walkToDoor\")",
+                "=",
+                "Door.PointY(\"walkToDoor\")"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "followPlayer",
+                "=",
+                "Player.X()",
+                "=",
+                "Player.Y()-100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Door",
+                "\"closed_door\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "DestX",
+                "=",
+                "Player.X()-150"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "DestY",
+                "=",
+                "Player.Y()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Player",
+                "Pathfinding",
+                "",
+                "GlobalVariable(DestX)",
+                "GlobalVariable(DestY)"
               ],
               "subInstructions": []
             }
@@ -2668,14 +2876,14 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Change Room",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2699,6 +2907,28 @@
                 "name",
                 "=",
                 "\"door\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "blockedEvents",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "onVisibleClickableButton",
+                "False"
               ],
               "subInstructions": []
             },
@@ -2744,18 +2974,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "previousCursorMode",
-                    "=",
-                    "GlobalVariable(previousCursorMode)"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -2870,12 +3088,45 @@
             {
               "type": {
                 "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "blockedEvents",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "onVisibleClickableButton",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "VarGlobal"
               },
               "parameters": [
                 "cursorMode",
                 "=",
                 "7"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Layer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Cursor\""
               ],
               "subInstructions": []
             },
@@ -2950,25 +3201,55 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PathfindingBehavior::DestinationReached"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Player",
-                "Pathfinding"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "interactingWithHotspot",
-                "=",
-                "\"door\""
-              ],
-              "subInstructions": []
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">=",
+                    "1160"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PathfindingBehavior::DestinationReached"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Pathfinding"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "interactingWithHotspot",
+                        "=",
+                        "\"door\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ]
             },
             {
               "type": {
@@ -3041,6 +3322,39 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Layer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Cursor\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "blockedEvents",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "onVisibleClickableButton",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "MouseButtonReleased"
               },
               "parameters": [
@@ -3059,28 +3373,6 @@
                 "",
                 "",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Layer"
-              },
-              "parameters": [
-                "Cursor",
-                "\"Cursor\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "onVisibleClickableButton",
-                "False"
               ],
               "subInstructions": []
             }
@@ -3172,7 +3464,7 @@
               "events": [
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3233,7 +3525,7 @@
                     },
                     {
                       "disabled": false,
-                      "folded": true,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -3580,7 +3872,7 @@
               "events": [
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3641,7 +3933,7 @@
                     },
                     {
                       "disabled": false,
-                      "folded": true,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -3802,7 +4094,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4003,7 +4295,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4266,7 +4558,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4699,6 +4991,21 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\audio\\SFX\\03 Gaveta Abrir.mp3",
+                        "7",
+                        "",
+                        "50",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "TextObject::String"
                       },
                       "parameters": [
@@ -4772,6 +5079,21 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\audio\\SFX\\04 Gaveta Cerrada.mp3",
+                        "7",
+                        "",
+                        "50",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
                     {
                       "type": {
                         "inverted": false,
@@ -4946,6 +5268,21 @@
                         "\"open_chest\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\audio\\SFX\\07 Cofre Abrir.mp3",
+                        "7",
+                        "",
+                        "50",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -5022,6 +5359,21 @@
                         "\"close_chest\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\audio\\SFX\\08 Cofre Cerrado.mp3",
+                        "7",
+                        "",
+                        "50",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -5030,7 +5382,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -5159,9 +5511,66 @@
                     "\"yellow_key\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\SFX\\09 Cofre con Llave.mp3",
+                    "9",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "score.unlock_chest",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "save_game",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -5247,6 +5656,21 @@
                       "parameters": [
                         "wardrobe",
                         "\"close_wardrobe\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\audio\\SFX\\06 Armario Cerrado.mp3",
+                        "7",
+                        "",
+                        "50",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -5412,9 +5836,66 @@
                             "\"none\""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\audio\\SFX\\16 Tomar Ropas.mp3",
+                            "7",
+                            "",
+                            "50",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "score.use_clothes",
+                                "=",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "save_game",
+                                "True"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 },
@@ -5488,6 +5969,21 @@
                         "narrator_text",
                         "=",
                         "\"Abrir armario\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\audio\\SFX\\05 Armario Abrir.mp3",
+                        "7",
+                        "",
+                        "50",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -5618,6 +6114,21 @@
                         "\"opened_door\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\audio\\SFX\\10 Puerta Abrir.mp3",
+                        "7",
+                        "",
+                        "50",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": [
@@ -5739,6 +6250,21 @@
                         "\"closed_door\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\audio\\SFX\\07 Cofre Abrir.mp3",
+                        "7",
+                        "",
+                        "50",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": [
@@ -5794,72 +6320,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Once the player finished the use animation and it's not interacting with anything else",
-      "comment2": ""
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "AnimationName"
-          },
-          "parameters": [
-            "Player",
-            "VariableString(use_animation)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "AnimationEnded"
-          },
-          "parameters": [
-            "Player"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobalTxt"
-          },
-          "parameters": [
-            "interactingWithHotspot",
-            "=",
-            "\"none\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
     },
     {
       "disabled": false,
@@ -6360,77 +6820,9 @@
       "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "name": "PopUp Cajon",
+      "name": "PopUp Drawe/Chest",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "onVisibleClickableButton",
-            "False"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "hotspots",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Layer"
-          },
-          "parameters": [
-            "Cursor",
-            "\"Cursor\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "cursorMode",
-            "=",
-            "3"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
       "events": [
         {
           "disabled": false,
@@ -6440,116 +6832,34 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarObjetTxt"
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "onVisibleClickableButton",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
               },
               "parameters": [
                 "hotspots",
-                "name",
-                "=",
-                "\"coin\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "InventoryItemHandle.item_name",
-                "=",
-                "\"coin\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "InventoryItemHandle[\"addItem?\"]",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "InventoryItemHandle.quantity",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "isItemAdded.coin",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "narrator_text",
-                "=",
-                "\"Dinero en inventario\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "narrator_speech",
-                "=",
-                "125"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "visibleGUIname",
-                "=",
-                "\"narratorbox\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "coin",
+                "",
+                "",
                 ""
               ],
               "subInstructions": []
@@ -6557,562 +6867,1058 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "Layer"
               },
               "parameters": [
-                "hotspots",
-                ""
+                "Cursor",
+                "\"Cursor\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "cursorMode",
+                "=",
+                "3"
               ],
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "hotspots",
-                "name",
-                "=",
-                "\"yellow_key\""
+              "disabled": false,
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    "name",
+                    "=",
+                    "\"coin\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\SFX\\13 Tomar Dinero.mp3",
+                    "7",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.item_name",
+                    "=",
+                    "\"coin\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle[\"addItem?\"]",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.quantity",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "isItemAdded.coin",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "narrator_text",
+                    "=",
+                    "\"Dinero en inventario\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "narrator_speech",
+                    "=",
+                    "125"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "visibleGUIname",
+                    "=",
+                    "\"narratorbox\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "coin",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "active_inventory",
+                    "=",
+                    "\"coin\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "score.add_coinbedroom",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "save_game",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    "name",
+                    "=",
+                    "\"yellow_key\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\SFX\\09 Cofre con Llave.mp3",
+                    "7",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.item_name",
+                    "=",
+                    "\"yellow_key\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle[\"addItem?\"]",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.quantity",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "isItemAdded.yellow_key",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "narrator_text",
+                    "=",
+                    "\"Llave en inventario\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "narrator_speech",
+                    "=",
+                    "123"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "visibleGUIname",
+                    "=",
+                    "\"narratorbox\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "yellow_key",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "active_inventory",
+                    "=",
+                    "\"yellow_key\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "score.add_yellowkey",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "save_game",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    "name",
+                    "=",
+                    "\"bread\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\SFX\\12 Tomar Pan.mp3",
+                    "7",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.item_name",
+                    "=",
+                    "\"bread\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle[\"addItem?\"]",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.quantity",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "isItemAdded.bread",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "narrator_text",
+                    "=",
+                    "\"Pan en inventario\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "narrator_speech",
+                    "=",
+                    "127"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "visibleGUIname",
+                    "=",
+                    "\"narratorbox\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "bread",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "active_inventory",
+                    "=",
+                    "\"bread\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "score.add_breadbedroom",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "save_game",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    "name",
+                    "=",
+                    "\"empty_bottle\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\SFX\\14 Tomar Botella.mp3",
+                    "7",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.item_name",
+                    "=",
+                    "\"empty_bottle\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle[\"addItem?\"]",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.quantity",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "isItemAdded.empty_bottle",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "narrator_text",
+                    "=",
+                    "\"Botella en inventario\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "narrator_speech",
+                    "=",
+                    "104"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "visibleGUIname",
+                    "=",
+                    "\"narratorbox\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "empty_bottle",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "active_inventory",
+                    "=",
+                    "\"empty_bottle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "score.add_bottlebedroom",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "save_game",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    "name",
+                    "=",
+                    "\"trophy\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\SFX\\15 Tomar Trofeo.mp3",
+                    "7",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.item_name",
+                    "=",
+                    "\"trophy\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle[\"addItem?\"]",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "InventoryItemHandle.quantity",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "isItemAdded.trophy",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "narrator_text",
+                    "=",
+                    "\"Trofeo en inventario\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "narrator_speech",
+                    "=",
+                    "106"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "visibleGUIname",
+                    "=",
+                    "\"narratorbox\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "trophy",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "hotspots",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "active_inventory",
+                    "=",
+                    "\"trophy\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "score.add_trophy",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "save_game",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "InventoryItemHandle.item_name",
-                "=",
-                "\"yellow_key\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "InventoryItemHandle[\"addItem?\"]",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "InventoryItemHandle.quantity",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "isItemAdded.yellow_key",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "narrator_text",
-                "=",
-                "\"Llave en inventario\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "narrator_speech",
-                "=",
-                "123"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "visibleGUIname",
-                "=",
-                "\"narratorbox\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "yellow_key",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "hotspots",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "hotspots",
-                "name",
-                "=",
-                "\"bread\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "InventoryItemHandle.item_name",
-                "=",
-                "\"bread\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "InventoryItemHandle[\"addItem?\"]",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "InventoryItemHandle.quantity",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "isItemAdded.bread",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "narrator_text",
-                "=",
-                "\"Pan en inventario\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "narrator_speech",
-                "=",
-                "127"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "visibleGUIname",
-                "=",
-                "\"narratorbox\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "bread",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "hotspots",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "hotspots",
-                "name",
-                "=",
-                "\"empty_bottle\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "InventoryItemHandle.item_name",
-                "=",
-                "\"empty_bottle\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "InventoryItemHandle[\"addItem?\"]",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "InventoryItemHandle.quantity",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "isItemAdded.empty_bottle",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "narrator_text",
-                "=",
-                "\"Botella en inventario\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "narrator_speech",
-                "=",
-                "104"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "visibleGUIname",
-                "=",
-                "\"narratorbox\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "empty_bottle",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "hotspots",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "hotspots",
-                "name",
-                "=",
-                "\"trophy\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "InventoryItemHandle.item_name",
-                "=",
-                "\"trophy\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "InventoryItemHandle[\"addItem?\"]",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "InventoryItemHandle.quantity",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "isItemAdded.trophy",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "narrator_text",
-                "=",
-                "\"Trofeo en inventario\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "narrator_speech",
-                "=",
-                "106"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "visibleGUIname",
-                "=",
-                "\"narratorbox\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "trophy",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "hotspots",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -7214,9 +8020,74 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "hotspot_name",
+                "testText",
                 "=",
-                "ToString(Inventory::Count(\"player_inventory\", \"yellow_key\"))"
+                "GlobalVariableString(hasClothes)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FileSystem::SaveVariableToJSONFileSync"
+              },
+              "parameters": [
+                "Variable",
+                "FileSystem::DesktopPath()+FileSystem::PathDelimiter()+\"test\"+FileSystem::PathDelimiter()+\"test.sav\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FileSystem::SaveStringToFileSync"
+              },
+              "parameters": [
+                "GlobalVarToJSON(Variable)",
+                "FileSystem::DesktopPath()+FileSystem::PathDelimiter()+\"test\"+FileSystem::PathDelimiter()+\"test.sav\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FileSystem::MakeDirectory"
+              },
+              "parameters": [
+                "FileSystem::DesktopPath()+FileSystem::PathDelimiter()+\"test\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FileSystem::SaveStringToFileSync"
+              },
+              "parameters": [
+                "GlobalVarToJSON(game)",
+                "FileSystem::DesktopPath()+FileSystem::PathDelimiter()+\"test\"+FileSystem::PathDelimiter()+\"test.sav\"",
+                ""
               ],
               "subInstructions": []
             }
@@ -7225,6 +8096,22 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [
@@ -7257,6 +8144,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Hotspots",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 11446328,
+      "ambientLightColorG": 11446328,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Inventory",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -7268,17 +8166,6 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Iconbar",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 11446328,
-      "ambientLightColorG": 11446328,
-      "ambientLightColorR": 0,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Inventory",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -7319,12 +8206,40 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Checkbox",
+      "type": "Checkbox::Checkbox"
+    },
+    {
+      "name": "DraggableSliderControl",
+      "type": "DraggableSliderControl::DraggableSliderControl"
+    },
+    {
       "name": "Pathfinding",
       "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
       "name": "PathfindingObstacle",
       "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
+    },
+    {
+      "name": "ShakeObject_PositionAngleScale",
+      "type": "ShakeObject::ShakeObject_PositionAngleScale"
+    },
+    {
+      "name": "StayOnScreen",
+      "type": "StayOnScreen::StayOnScreen"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    },
+    {
+      "name": "YSort",
+      "type": "YSort::YSort"
     },
     {
       "name": "cursor",
