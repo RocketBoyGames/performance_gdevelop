@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.5599999053955071,
+    "zoomFactor": 0.20999998779296902,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -812,6 +812,72 @@
           "name": "display_name",
           "type": "string",
           "value": "Pedro"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "b8c37e86-60c1-471e-94c4-ed2c3c99021b",
+      "width": 0,
+      "x": 70,
+      "y": -824,
+      "zOrder": 1007,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "creaturesBook_tittle"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 21,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "4098b21e-2a76-4a9a-b0e1-b1ec92b6ccf5",
+      "width": 580,
+      "x": 29,
+      "y": -763,
+      "zOrder": 1008,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "creaturesBook_left"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 21,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "b6268b17-ee06-41bc-81d4-297748bb3add",
+      "width": 556,
+      "x": 676,
+      "y": -847,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "creaturesBook_right"
         }
       ]
     }

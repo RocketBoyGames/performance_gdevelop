@@ -871,7 +871,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Narrator Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1216,7 +1216,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Exit button for PopUps ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1288,7 +1288,7 @@
                   },
                   "parameters": [
                     "buttons",
-                    "\"return_normal\""
+                    "\"accept_normal\""
                   ],
                   "subInstructions": []
                 }
@@ -1366,7 +1366,7 @@
                       },
                       "parameters": [
                         "buttons",
-                        "\"return_hover\""
+                        "\"accept_hover\""
                       ],
                       "subInstructions": []
                     }
@@ -1421,7 +1421,7 @@
                       },
                       "parameters": [
                         "buttons",
-                        "\"return_click\""
+                        "\"accept_click\""
                       ],
                       "subInstructions": []
                     }
@@ -1461,7 +1461,7 @@
                       },
                       "parameters": [
                         "buttons",
-                        "\"return_hover\""
+                        "\"accept_hover\""
                       ],
                       "subInstructions": []
                     },
@@ -2001,7 +2001,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "External Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2068,6 +2068,15 @@
             "includeConfig": 0
           },
           "target": "dialogues"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "in_game_translations"
         }
       ],
       "parameters": []
@@ -2078,7 +2087,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Hotspot name hover",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

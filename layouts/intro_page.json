@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.26000001220703206,
+    "zoomFactor": 0.41000000305175865,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2899,7 +2899,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Slots events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

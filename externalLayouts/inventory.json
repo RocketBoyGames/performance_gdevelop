@@ -488,6 +488,50 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "e5204413-13d8-46f7-8bd4-3e8212a25757",
+      "width": 0,
+      "x": 589,
+      "y": 191,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "objects_title"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Inventory",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "6caaa9c4-1e44-4449-8740-930785b055b1",
+      "width": 0,
+      "x": 735,
+      "y": 562,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "return_objects"
+        }
+      ]
     }
   ],
   "editionSettings": {
@@ -500,7 +544,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9583333099365313,
+    "zoomFactor": 2.3583332244873114,
     "windowMask": false
   }
 }

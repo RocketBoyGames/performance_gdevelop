@@ -210,12 +210,12 @@
     {
       "angle": 0,
       "customSize": false,
-      "height": 0,
+      "height": 120,
       "layer": "Iconbar",
       "locked": false,
       "name": "buttons",
       "persistentUuid": "9a2da56f-2775-4128-9b2f-898d840f7498",
-      "width": 0,
+      "width": 136,
       "x": 982,
       "y": 48,
       "zOrder": 19,
@@ -354,20 +354,20 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "height": 41.70731735229492,
       "layer": "ExitPopup",
       "locked": false,
       "name": "buttons",
       "persistentUuid": "ca129ae4-2132-4177-90be-d0ded9227436",
       "width": 95,
-      "x": 593,
-      "y": 662,
+      "x": 552,
+      "y": 648,
       "zOrder": 10,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 43
+          "value": 58
         }
       ],
       "stringProperties": [],
@@ -527,6 +527,358 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "e8a90079-8988-4b42-b8f2-784c53105931",
+      "width": 0,
+      "x": 1145,
+      "y": 135,
+      "zOrder": 1000006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "exit"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "244081bd-981e-4461-9df5-4d2711cf0812",
+      "width": 0,
+      "x": 69,
+      "y": 135,
+      "zOrder": 1000006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "walk"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "70ee1ee2-1fe4-47e1-ac4d-c96e565dc2d6",
+      "width": 0,
+      "x": 201,
+      "y": 135,
+      "zOrder": 1000006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "look"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "0b07dea2-b27b-40d1-8c6e-abcb1b9347ef",
+      "width": 0,
+      "x": 336,
+      "y": 135,
+      "zOrder": 1000006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "use"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "9f63821a-b60f-4d6a-a4af-3168f392b9e9",
+      "width": 0,
+      "x": 465,
+      "y": 135,
+      "zOrder": 1000006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "talk"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "6db13acf-e5dd-4dc6-8e38-f3aadbe98488",
+      "width": 0,
+      "x": 608,
+      "y": 135,
+      "zOrder": 1000006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "item"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "c03ea3d6-9e64-435c-92fc-1ee4db386cf9",
+      "width": 0,
+      "x": 743,
+      "y": 135,
+      "zOrder": 1000006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "objects"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "ba8d3db0-c6d7-490b-a0c4-bc7f95201901",
+      "width": 0,
+      "x": 880,
+      "y": 135,
+      "zOrder": 1000006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "missions"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0.000009999999747378752,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "c8f1ef83-8906-4b14-a90d-d70ed9c94bf4",
+      "width": 122,
+      "x": 1013,
+      "y": 135,
+      "zOrder": 1000006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "options"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "ExitPopup",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "cd83bd62-7a28-4746-bb57-116a542562ac",
+      "width": 0,
+      "x": 604,
+      "y": 663,
+      "zOrder": 1000007,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "exit_popup"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "89b2d182-6049-41b4-9ca5-672d76e7808f",
+      "width": 0,
+      "x": 1156,
+      "y": 11,
+      "zOrder": 1000008,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "hunger"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Iconbar",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "d2436429-bfe5-43e7-bd4a-338626edc09e",
+      "width": 0,
+      "x": 62,
+      "y": 11,
+      "zOrder": 1000008,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "thirst"
+        }
+      ]
+    },
+    {
+      "angle": 350,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "330516df-9110-4f21-b467-cc57826085ab",
+      "width": 0,
+      "x": 1703.0870361328125,
+      "y": -1418.044189453125,
+      "zOrder": 1000009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "list_corn"
+        }
+      ]
+    },
+    {
+      "angle": 350,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "8b8c8ae2-cac6-4b76-a855-9a9b23ba9bb0",
+      "width": 0,
+      "x": 1729.3387451171875,
+      "y": -1268.051513671875,
+      "zOrder": 1000010,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "list_tomato"
+        }
+      ]
+    },
+    {
+      "angle": 350,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "5a09232e-838e-486e-95bc-a5a0102f37de",
+      "width": 0,
+      "x": 1808.4403076171875,
+      "y": -1132.9234619140625,
+      "zOrder": 1000011,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "list_carrot"
+        }
+      ]
+    },
+    {
+      "angle": 350,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "58d1a70a-699e-4e5b-9e1e-bfff4645ffbe",
+      "width": 0,
+      "x": 1858.5,
+      "y": -1013.6397705078125,
+      "zOrder": 1000012,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "list_mushroom"
+        }
+      ]
     }
   ],
   "editionSettings": {
@@ -539,7 +891,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40999997558593754,
+    "zoomFactor": 0.25999998474121094,
     "windowMask": false
   }
 }

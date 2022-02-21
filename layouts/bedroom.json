@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6099999847412111,
+    "zoomFactor": 0.2600000061035156,
     "windowMask": false
   },
   "objectsGroups": [
@@ -940,6 +940,28 @@
           "value": "Pedro"
         }
       ]
+    },
+    {
+      "angle": 45,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "e76e365d-375d-41f8-9eab-0a99de8d5f1c",
+      "width": 0,
+      "x": -392.0212097167969,
+      "y": 407.411865234375,
+      "zOrder": 1003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "trophy"
+        }
+      ]
     }
   ],
   "objects": [
@@ -1429,7 +1451,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\scenes\\bedroom\\Pedros Cofre Popup\\Trofeo Popup.png",
+                  "image": "assets\\scenes\\bedroom\\Pedros Cofre Popup\\Trofeo Popup - Copy.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1995,7 +2017,7 @@
     },
     {
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {

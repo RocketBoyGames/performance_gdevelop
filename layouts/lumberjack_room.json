@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2099999267578123,
+    "zoomFactor": 0.259999984741211,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -868,6 +868,94 @@
           "name": "display_name",
           "type": "string",
           "value": "Pedro"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "56638847-f1ca-40a4-9057-45231cfd1867",
+      "width": 0,
+      "x": 277,
+      "y": -666,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "lumberjack_sign1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "20aea630-ec08-4e3a-b76e-798cf06012f9",
+      "width": 0,
+      "x": 100,
+      "y": -597,
+      "zOrder": 1005,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "lumberjack_sign2"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "2b5797a1-3253-4ed6-b8fa-3f0f0c5ad7c7",
+      "width": 0,
+      "x": 679,
+      "y": -772,
+      "zOrder": 1006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "lumberjack_sign3"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "a126f055-12fe-4e27-b4cd-6566af7c92b0",
+      "width": 0,
+      "x": 687,
+      "y": -693,
+      "zOrder": 1006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "lumberjack_sign4"
         }
       ]
     }

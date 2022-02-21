@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.26000008239746186,
+    "zoomFactor": 0.4600000732421866,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1615,13 +1615,13 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 720,
       "layer": "",
       "locked": false,
       "name": "BG",
       "persistentUuid": "754de5b7-038c-44df-8af3-18d840b552dc",
-      "width": 0,
+      "width": 1280,
       "x": 0,
       "y": -888,
       "zOrder": 0,
@@ -2054,6 +2054,270 @@
           "name": "display_name",
           "type": "string",
           "value": "Pedro"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "bd5fb8cf-2434-41b9-b384-c3d80509cf02",
+      "width": 0,
+      "x": 901,
+      "y": -12,
+      "zOrder": 1032,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "town_store_name   "
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "69cfc757-22c8-4d9a-a75e-ae3e9c2fdf8c",
+      "width": 0,
+      "x": 416,
+      "y": -5,
+      "zOrder": 1033,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "town_guild_name"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "df3b1998-6a5a-462e-99bc-b23e06c9e7a3",
+      "width": 0,
+      "x": 261,
+      "y": 141,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "town_notice_title"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "bb99449a-7185-4bce-a037-17818e1539aa",
+      "width": 0,
+      "x": 604,
+      "y": -858,
+      "zOrder": 1035,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "notice1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "ae271b84-db6b-4f30-95b2-811a03f7dd0d",
+      "width": 0,
+      "x": 33,
+      "y": -746,
+      "zOrder": 1036,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "notice2"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 21,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "ca9a4211-a72b-4974-86f1-30ec4fa74872",
+      "width": 630,
+      "x": 19,
+      "y": -691,
+      "zOrder": 1037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "notice3"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 21,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "82c3cfb3-0d70-4493-8858-72c38ffe2adf",
+      "width": 583,
+      "x": 679,
+      "y": -679,
+      "zOrder": 1037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "notice5"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "c2aca2a7-a3a8-437b-a8ee-887b36efee01",
+      "width": 0,
+      "x": 679,
+      "y": -732,
+      "zOrder": 1037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "notice4"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "ccd97fe6-ceb5-4d47-a38e-fc552895c1c3",
+      "width": 0,
+      "x": 31,
+      "y": -482,
+      "zOrder": 1037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "notice6"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 21,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "06a33800-d8e7-42dc-9693-5b7b84aaffad",
+      "width": 486,
+      "x": 35,
+      "y": -427,
+      "zOrder": 1037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "notice7"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "12cddaaf-8a9f-4873-a01d-905b023816f3",
+      "width": 0,
+      "x": 742,
+      "y": -464,
+      "zOrder": 1037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "notice8"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 21,
+      "layer": "",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "8e516afb-5f22-46a2-bd66-b198700e1793",
+      "width": 655,
+      "x": 598,
+      "y": -403,
+      "zOrder": 1037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "notice9"
         }
       ]
     }
@@ -20340,7 +20604,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Dialogue events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

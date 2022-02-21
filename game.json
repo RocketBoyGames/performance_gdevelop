@@ -27207,6 +27207,438 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/voces logo white.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\voces logo white.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/Barra Animaciones/sed mapa hambre barra/sed mapa hambre - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\Barra Animaciones\\sed mapa hambre barra\\sed mapa hambre - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/01 Caminar/Walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\01 Caminar\\Walk1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/01 Caminar/Walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\01 Caminar\\Walk2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/01 Caminar/Walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\01 Caminar\\Walk3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/02 Mirar/Look1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\02 Mirar\\Look1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/02 Mirar/Look2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\02 Mirar\\Look2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/02 Mirar/Look3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\02 Mirar\\Look3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/03 Usar/Use1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\03 Usar\\Use1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/03 Usar/Use2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\03 Usar\\Use2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/03 Usar/Use3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\03 Usar\\Use3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/04 Hablar/Talk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\04 Hablar\\Talk1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/04 Hablar/Talk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\04 Hablar\\Talk2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/04 Hablar/Talk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\04 Hablar\\Talk3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/05 Objetos/Objects1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\05 Objetos\\Objects1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/05 Objetos/Objects2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\05 Objetos\\Objects2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/05 Objetos/Objects3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\05 Objetos\\Objects3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/06 Item/Itemm1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\06 Item\\Itemm1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/06 Item/Itemm2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\06 Item\\Itemm2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/06 Item/Itemm3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\06 Item\\Itemm3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/07 Misiones/Missions1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\07 Misiones\\Missions1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/07 Misiones/Missions2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\07 Misiones\\Missions2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/07 Misiones/Missions3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\07 Misiones\\Missions3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/08 Opciones/Options1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\08 Opciones\\Options1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/08 Opciones/Options2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\08 Opciones\\Options2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/08 Opciones/Options3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\08 Opciones\\Options3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/09 Salir/Exit1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\09 Salir\\Exit1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/09 Salir/Exit2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\09 Salir\\Exit2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/09 Salir/Exit3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\09 Salir\\Exit3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/12 Mapa/map1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\12 Mapa\\map1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/12 Mapa/map2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\12 Mapa\\map2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Barra Iconos/12 Mapa/map3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Barra Iconos\\12 Mapa\\map3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Buttons/Objetos Salir1 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Buttons\\Objetos Salir1 - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Buttons/Objetos Salir2 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Buttons\\Objetos Salir2 - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Buttons/Objetos Salir1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Buttons\\Objetos Salir1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Buttons/Buttonn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Buttons\\Buttonn1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Buttons/Buttonn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Buttons\\Buttonn2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Buttons/Buttonn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Buttons\\Buttonn3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Buttons/Button1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Buttons\\Button1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Buttons/Button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Buttons\\Button2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Buttons/Button3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Buttons\\Button3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/bedroom/Pedros Cofre Popup/Trofeo Popup - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\bedroom\\Pedros Cofre Popup\\Trofeo Popup - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/guild/creatures_book.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\guild\\creatures_book.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/lumberjack_room/sign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\lumberjack_room\\sign.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scenes/town/notice_board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scenes\\town\\notice_board.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/click to continue - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\click to continue - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Popups external/soup_list - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Popups external\\soup_list - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Inventory/Objetos Ventana - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Inventory\\Objetos Ventana - Copy.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -60179,7 +60611,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\interface\\Barra Iconos\\01 Caminar\\01 Caminar1.png",
+                  "image": "assets\\interface\\Barra Iconos\\01 Caminar\\Walk1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60227,7 +60659,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\01 Caminar\\01 Caminar2.png",
+                  "image": "assets\\interface\\Barra Iconos\\01 Caminar\\Walk2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60256,7 +60688,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\01 Caminar\\01 Caminar3.png",
+                  "image": "assets\\interface\\Barra Iconos\\01 Caminar\\Walk3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60285,7 +60717,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\02 Mirar\\02 Mirar1.png",
+                  "image": "assets\\interface\\Barra Iconos\\02 Mirar\\Look1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60314,7 +60746,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\02 Mirar\\02 Mirar2.png",
+                  "image": "assets\\interface\\Barra Iconos\\02 Mirar\\Look2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60343,7 +60775,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\02 Mirar\\02 Mirar3.png",
+                  "image": "assets\\interface\\Barra Iconos\\02 Mirar\\Look3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60372,7 +60804,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\03 Usar\\03 Usar1.png",
+                  "image": "assets\\interface\\Barra Iconos\\03 Usar\\Use1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60401,7 +60833,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\03 Usar\\03 Usar2.png",
+                  "image": "assets\\interface\\Barra Iconos\\03 Usar\\Use2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60430,7 +60862,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\03 Usar\\03 Usar3.png",
+                  "image": "assets\\interface\\Barra Iconos\\03 Usar\\Use3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60459,7 +60891,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\04 Hablar\\04 Hablar1.png",
+                  "image": "assets\\interface\\Barra Iconos\\04 Hablar\\Talk1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60488,7 +60920,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\04 Hablar\\04 Hablar2.png",
+                  "image": "assets\\interface\\Barra Iconos\\04 Hablar\\Talk2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60517,7 +60949,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\04 Hablar\\04 Hablar3.png",
+                  "image": "assets\\interface\\Barra Iconos\\04 Hablar\\Talk3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60546,7 +60978,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\05 Objetos\\05 Objetos1.png",
+                  "image": "assets\\interface\\Barra Iconos\\05 Objetos\\Objects1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60575,7 +61007,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\05 Objetos\\05 Objetos2.png",
+                  "image": "assets\\interface\\Barra Iconos\\05 Objetos\\Objects2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60604,7 +61036,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\05 Objetos\\05 Objetos3.png",
+                  "image": "assets\\interface\\Barra Iconos\\05 Objetos\\Objects3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60633,7 +61065,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\06 Item\\06 Item1.png",
+                  "image": "assets\\interface\\Barra Iconos\\06 Item\\Itemm1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60662,7 +61094,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\06 Item\\06 Item2.png",
+                  "image": "assets\\interface\\Barra Iconos\\06 Item\\Itemm2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60691,7 +61123,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\06 Item\\06 Item3.png",
+                  "image": "assets\\interface\\Barra Iconos\\06 Item\\Itemm3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60720,7 +61152,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\07 Misiones\\07 Misiones1.png",
+                  "image": "assets\\interface\\Barra Iconos\\07 Misiones\\Missions1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60749,7 +61181,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\07 Misiones\\07 Misiones2.png",
+                  "image": "assets\\interface\\Barra Iconos\\07 Misiones\\Missions2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60778,7 +61210,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\07 Misiones\\07 Misiones3.png",
+                  "image": "assets\\interface\\Barra Iconos\\07 Misiones\\Missions3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60807,7 +61239,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\08 Opciones\\08 Opciones1.png",
+                  "image": "assets\\interface\\Barra Iconos\\08 Opciones\\Options1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60836,7 +61268,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\08 Opciones\\08 Opciones2.png",
+                  "image": "assets\\interface\\Barra Iconos\\08 Opciones\\Options2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60865,7 +61297,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\08 Opciones\\08 Opciones3.png",
+                  "image": "assets\\interface\\Barra Iconos\\08 Opciones\\Options3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60894,7 +61326,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\09 Salir\\09 Salir1.png",
+                  "image": "assets\\interface\\Barra Iconos\\09 Salir\\Exit1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60923,7 +61355,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\09 Salir\\09 Salir2.png",
+                  "image": "assets\\interface\\Barra Iconos\\09 Salir\\Exit2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60952,7 +61384,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\09 Salir\\09 Salir3.png",
+                  "image": "assets\\interface\\Barra Iconos\\09 Salir\\Exit3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -60981,7 +61413,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\12 Mapa\\12 Mapa1.png",
+                  "image": "assets\\interface\\Barra Iconos\\12 Mapa\\map1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -61010,7 +61442,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\12 Mapa\\12 Mapa2.png",
+                  "image": "assets\\interface\\Barra Iconos\\12 Mapa\\map2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -61039,7 +61471,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\12 Mapa\\12 Mapa3.png",
+                  "image": "assets\\interface\\Barra Iconos\\12 Mapa\\map3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -61416,7 +61848,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Inventory\\Objetos Salir1.png",
+                  "image": "assets\\interface\\Buttons\\Buttonn1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -61445,7 +61877,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Inventory\\Objetos Salir2.png",
+                  "image": "assets\\interface\\Buttons\\Buttonn2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -61474,7 +61906,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Inventory\\Objetos Salir3.png",
+                  "image": "assets\\interface\\Buttons\\Buttonn3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -61851,7 +62283,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Buttons\\accept1.png",
+                  "image": "assets\\interface\\Buttons\\Button1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -61880,7 +62312,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Buttons\\accept2.png",
+                  "image": "assets\\interface\\Buttons\\Button2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -61909,7 +62341,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Buttons\\accept3.png",
+                  "image": "assets\\interface\\Buttons\\Button3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -62471,7 +62903,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Barra Iconos\\Barra Animaciones\\sed mapa hambre barra\\sed mapa hambre.png",
+                  "image": "assets\\interface\\Barra Iconos\\Barra Animaciones\\sed mapa hambre barra\\sed mapa hambre - Copy.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -63293,7 +63725,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\scenes\\lumberjack_room\\poste indicador - Camino de Lenador (1).png",
+                  "image": "assets\\scenes\\lumberjack_room\\sign.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -63322,7 +63754,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\scenes\\town\\18 El Pueblo v4 B.png",
+                  "image": "assets\\scenes\\town\\townBG.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -63351,7 +63783,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\scenes\\town\\Cartel de Noticias.png",
+                  "image": "assets\\scenes\\town\\notice_board.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -63467,7 +63899,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\scenes\\guild\\Libro Criaturas.png",
+                  "image": "assets\\scenes\\guild\\creatures_book.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -68428,7 +68860,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Inventory\\Objetos Ventana.png",
+                  "image": "assets\\interface\\Inventory\\Objetos Ventana - Copy.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -68677,7 +69109,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\interface\\Popups external\\soup_list.png",
+                  "image": "assets\\interface\\Popups external\\soup_list - Copy.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -69295,6 +69727,32 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "in_game_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "TEXT",
+      "font": "assets\\fonts\\MonkeyIsland.ttf",
+      "characterSize": 18,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "objectsGroups": [],
@@ -69693,7 +70151,7 @@
         {
           "name": "volumeGlobal",
           "type": "number",
-          "value": 50
+          "value": 0
         },
         {
           "name": "volumeMusic",
@@ -70001,6 +70459,11 @@
           ]
         }
       ]
+    },
+    {
+      "name": "language",
+      "type": "string",
+      "value": "spanish"
     }
   ],
   "layouts": [
@@ -70109,6 +70572,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/dialogues"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/in_game_translations"
     }
   ],
   "eventsFunctionsExtensions": [
