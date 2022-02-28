@@ -310,6 +310,30 @@
             "GlobalVariable(isItemAdded.empty_bottle)"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"save_game\"+GlobalVariableString(save_slot)",
+            "\"isLookDrawerPlayed\"",
+            "GlobalVariableString(isLookDrawerPlayed)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"save_game\"+GlobalVariableString(save_slot)",
+            "\"isUseDrawerPlayed\"",
+            "GlobalVariableString(isUseDrawerPlayed)"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -377,6 +401,18 @@
             "\"save_game\"+GlobalVariableString(save_slot)",
             "\"isItemAdded.rock\"",
             "GlobalVariable(isItemAdded.rock)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"save_game\"+GlobalVariableString(save_slot)",
+            "\"isLookRockPlayed\"",
+            "GlobalVariableString(isLookRockPlayed)"
           ],
           "subInstructions": []
         }
@@ -1148,6 +1184,18 @@
             "\"save_game\"+GlobalVariableString(save_slot)",
             "\"score_give_mushroom\"",
             "GlobalVariable(score.give_mushroom)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"save_game\"+GlobalVariableString(save_slot)",
+            "\"score_give_tomato\"",
+            "GlobalVariable(score.give_tomato)"
           ],
           "subInstructions": []
         },

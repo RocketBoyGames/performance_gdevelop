@@ -153,22 +153,6 @@
       "height": 0,
       "layer": "Cursor",
       "locked": false,
-      "name": "checkboxFullscreenn",
-      "persistentUuid": "265e5b41-c1ac-4173-9a19-408e92c87b57",
-      "width": 0,
-      "x": 412.46685791015625,
-      "y": 252.0001220703125,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Cursor",
-      "locked": false,
       "name": "score",
       "persistentUuid": "56c91222-e7a7-415c-a427-a7432ea39a37",
       "width": 0,
@@ -194,6 +178,182 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "8fdf3eb2-9784-41f2-bbf9-f6cd0c60d516",
+      "width": 0,
+      "x": 608,
+      "y": 160,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "options_title"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "5bf232ab-4425-4247-891f-e56581a52477",
+      "width": 0,
+      "x": 412,
+      "y": 252,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "optionsFullscreenn"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "789459bf-c21b-4dad-9ed2-c74d0ebc7cd2",
+      "width": 0,
+      "x": 660,
+      "y": 266,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "optionsGlobalVol"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "c514a3bc-a850-4346-a6fd-bfa191d091fe",
+      "width": 0,
+      "x": 660,
+      "y": 383,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "optionsMusicVol"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "6e2a1766-8a5c-4600-abb5-0e3d2ab69ccf",
+      "width": 0,
+      "x": 478,
+      "y": 534,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "optionsPoints"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "200e029b-c79c-455c-ae01-1db47af5fb89",
+      "width": 0,
+      "x": 464,
+      "y": 378,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "optionsInfo"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "d5baa2ab-9093-4876-bf07-eb6ec7d9edc3",
+      "width": 0,
+      "x": 442,
+      "y": 318,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "optionsDefault"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Cursor",
+      "locked": false,
+      "name": "in_game_text",
+      "persistentUuid": "b681d67b-dd45-4c3e-a3ce-422c748a0655",
+      "width": 0,
+      "x": 466,
+      "y": 438,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "text_name",
+          "type": "string",
+          "value": "optionsAccept"
+        }
+      ]
     }
   ],
   "editionSettings": {
@@ -206,7 +366,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7500000122070312,
+    "zoomFactor": 0.49999999084472757,
     "windowMask": false
   }
 }
