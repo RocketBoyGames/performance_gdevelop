@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3099999755859353,
+    "zoomFactor": 0.7099999572753897,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -541,6 +541,902 @@
           "name": "text_name",
           "type": "string",
           "value": "intro_cancel"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard",
+      "persistentUuid": "0de58025-7291-4436-81c9-673ccb50c50e",
+      "width": 0,
+      "x": 203,
+      "y": 44,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "f01da0d5-c05d-4951-bf1f-94792785f503",
+      "width": 0,
+      "x": 276,
+      "y": 68,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "a"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 45,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "448f1980-3217-41f9-8c82-a6f604de0765",
+      "width": 93,
+      "x": 763,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": " "
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "c9e90a0d-20fc-4f27-aa9a-74fcde6e20d6",
+      "width": 0,
+      "x": 325,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "b"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "83f1f5a9-4a7e-4dae-89b6-09fea1090ae6",
+      "width": 0,
+      "x": 374,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "c"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "61c30617-3121-40bf-b2f4-f944305cdeb0",
+      "width": 0,
+      "x": 422,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "d"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "f3be57d0-480c-46af-89fe-a3f370ce0440",
+      "width": 0,
+      "x": 471,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "e"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "43568488-45d3-4588-8021-8b17796d4a56",
+      "width": 0,
+      "x": 519,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "f"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "ad9a6641-3c6b-4f6c-8497-c6749dd0054d",
+      "width": 0,
+      "x": 568,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "g"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "cc7513f6-49f3-4ca3-8639-b6ea5a70e733",
+      "width": 0,
+      "x": 617,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "h"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "a8c6be66-0a57-4c1d-9bf1-90055370f8ee",
+      "width": 0,
+      "x": 617,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "p"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "b96d787e-20b9-4120-938a-ef4d256257c5",
+      "width": 0,
+      "x": 568,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "o"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "29454e33-acfa-4fcd-86ac-16c608c524a5",
+      "width": 0,
+      "x": 519,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "ñ"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "bb0ab745-ccb2-4496-9f0b-adcd5804cf18",
+      "width": 0,
+      "x": 471,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "n"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "6ae6b35b-1a17-4dd2-adb8-a21e5d0b7233",
+      "width": 0,
+      "x": 422,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "m"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "581ade5a-283f-4886-a4b9-a1f27bbab7bc",
+      "width": 0,
+      "x": 374,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "l"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "b6a4aa4f-b001-459a-91d9-efb34ce7b607",
+      "width": 0,
+      "x": 325,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "k"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "bcc466b1-032d-4a30-ad6c-c1e9bdd6f68f",
+      "width": 0,
+      "x": 276,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "j"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "e2b04376-8498-4bbb-9008-b9410ef686c5",
+      "width": 0,
+      "x": 276,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "r"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "80550e05-f6cf-414e-b5f9-5c7ea263cbdc",
+      "width": 0,
+      "x": 325,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "s"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "cb9e7554-af96-4c54-b01d-042667adf0cc",
+      "width": 0,
+      "x": 374,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "t"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "2686bc7f-df62-48f8-9a41-20991a1c65cc",
+      "width": 0,
+      "x": 422,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "u"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "4025760c-8ba7-44de-ad16-5201f7eee2e6",
+      "width": 0,
+      "x": 471,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "v"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "68f8f6e9-b582-4704-b792-4e35d28fb2da",
+      "width": 0,
+      "x": 519,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "w"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "6c62bc8b-bbcf-4aee-a2fb-946018ab0af8",
+      "width": 0,
+      "x": 568,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "x"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "edc874fe-dacb-4a5a-91ea-ce6c2e1f342c",
+      "width": 0,
+      "x": 617,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "y"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "b49813ac-d559-4aa4-8281-2a223745c197",
+      "width": 0,
+      "x": 665,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "z"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "f882bd4e-31ef-495b-b370-16bf3c69e572",
+      "width": 0,
+      "x": 665,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "q"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "b0f4ac44-8343-4f0d-9392-e2d68b55fd16",
+      "width": 0,
+      "x": 665,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "i"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "1bb7146e-b249-4b69-a9d0-f52a244edc41",
+      "width": 0,
+      "x": 762,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "54001f14-47f8-42ff-a06f-3ee39a8c04a6",
+      "width": 0,
+      "x": 811,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "c13bc844-e9e8-462a-a346-586203d31a4a",
+      "width": 0,
+      "x": 860,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "4b7a50b8-68c2-4615-80cd-6c5a8aff1501",
+      "width": 0,
+      "x": 908,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "97303ce8-b77a-4e29-8f60-1d41215141c6",
+      "width": 0,
+      "x": 957,
+      "y": 68,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "65412b64-900d-4287-81c7-5130842c3bb3",
+      "width": 0,
+      "x": 957,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "2062d05c-4134-49d7-8d57-2a16b875103e",
+      "width": 0,
+      "x": 908,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "626c966e-1c88-4faf-a40c-e0713df86707",
+      "width": 0,
+      "x": 860,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "25ab8f40-6426-4f78-a08f-ba88efc47d17",
+      "width": 0,
+      "x": 811,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "bd306371-fd2b-494e-9544-faf655ddb560",
+      "width": 0,
+      "x": 762,
+      "y": 117,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "d0fb3e4e-f2c6-4572-a180-276c316a6707",
+      "width": 0,
+      "x": 957,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "exit"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 45,
+      "layer": "keyboard",
+      "locked": false,
+      "name": "keyboard_select",
+      "persistentUuid": "22d3f10a-b67d-4fe3-91f0-8f34cfe43c56",
+      "width": 93,
+      "x": 860,
+      "y": 166,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "delete"
         }
       ]
     }
@@ -1078,13 +1974,13 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 372,
-                    "y": 192
+                    "y": 193
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 372,
+                    "y": 193
                   },
                   "customCollisionMask": []
                 }
@@ -1409,6 +2305,92 @@
           ]
         }
       ]
+    },
+    {
+      "name": "keyboard",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Intro page\\keyboarrdd.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "keyboard_select",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "key_name",
+          "type": "string",
+          "value": "none"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\interface\\Intro page\\keyboard_select.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1423,7 +2405,7 @@
     },
     {
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1605,6 +2587,29 @@
           "parameters": [
             "",
             "\"Buttons\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"keyboard\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "keyboard_select",
+            "=",
+            "0"
           ],
           "subInstructions": []
         }
@@ -3361,7 +4366,7 @@
     },
     {
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3394,7 +4399,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "new game button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4129,7 +5134,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "options button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5066,7 +6071,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "accept button",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8332,7 +9337,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Show/Hide slots accept, delete, cancel buttons",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9955,7 +10960,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Name entry events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10036,13 +11041,259 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SystemInfo::HasTouchScreen"
+                "value": "SourisSurObjet"
               },
               "parameters": [
+                "keyboard_select",
+                "",
+                "",
                 ""
               ],
               "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "keyboard_select",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "keyboard_select",
+                        "key_name",
+                        "=",
+                        "\"delete\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "keyboard_select",
+                        "key_name",
+                        "=",
+                        "\"exit\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextEntryObject::String"
+                      },
+                      "parameters": [
+                        "user_name_entry",
+                        "+",
+                        "keyboard_select.VariableString(key_name)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "keyboard_select",
+                        "key_name",
+                        "=",
+                        "\"delete\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextEntryObject::String"
+                      },
+                      "parameters": [
+                        "user_name_entry",
+                        "=",
+                        "SubStr(user_name.String(),0,StrLength(user_name.String())-2)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "keyboard_select",
+                        "key_name",
+                        "=",
+                        "\"exit\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"keyboard\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "keyboard_select",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "inverted": true,
@@ -10058,6 +11309,19 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "keyboard",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
                 "inverted": false,
                 "value": "MouseButtonReleased"
               },
@@ -10070,24 +11334,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "NbObjet"
+                "value": "LayerVisible"
               },
               "parameters": [
-                "continue",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "NbObjet"
-              },
-              "parameters": [
-                "new_game",
-                ">",
-                "0"
+                "",
+                "\"keyboard\""
               ],
               "subInstructions": []
             }
@@ -10096,12 +11347,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::closeKeyboard"
+                "value": "HideLayer"
               },
               "parameters": [
-                "user_name_entry",
-                "TextEntryVirtualKeyboard",
-                ""
+                "",
+                "\"keyboard\""
               ],
               "subInstructions": []
             }
@@ -10113,16 +11363,6 @@
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SystemInfo::HasTouchScreen"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -10170,9 +11410,109 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"keyboard\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"keyboard\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "NbObjet"
+              },
+              "parameters": [
+                "new_game",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NbObjet"
+              },
+              "parameters": [
+                "continue",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::HasTouchScreen"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::HasTouchScreen"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "user_name",
+                "=",
+                "user_name.String()+\"_\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::closeKeyboard"
+              },
+              "parameters": [
+                "user_name_entry",
+                "TextEntryVirtualKeyboard",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -10289,107 +11629,6 @@
               "events": []
             }
           ]
-        },
-        {
-          "disabled": true,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Not"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Return"
-                  ],
-                  "subInstructions": []
-                }
-              ]
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextEntryObject::Activate"
-              },
-              "parameters": [
-                "user_name_entry",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": true,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Return"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Return"
-                  ],
-                  "subInstructions": []
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextEntryObject::Activate"
-              },
-              "parameters": [
-                "user_name_entry",
-                "no"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         }
       ],
       "parameters": []
@@ -10528,6 +11767,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Buttons",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 134217728,
+      "ambientLightColorG": 6025824,
+      "ambientLightColorR": 45220512,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "keyboard",
       "visibility": true,
       "cameras": [],
       "effects": []

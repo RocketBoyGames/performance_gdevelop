@@ -21,7 +21,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "D:\\PEDRO\\Engine Tests\\performance_gdevelopHTML",
+    "latestCompilationDirectory": "D:\\PEDRO\\Engine Tests\\performance_gdevelopHTML\\performance_gdevelopHTML",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -26954,6 +26954,51 @@
         "name": "assets\\audio\\SFX\\156 Tutorial Mirar.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Intro page/keyboard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Intro page\\keyboard.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Intro page/Nuevo Juego Ventana - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Intro page\\Nuevo Juego Ventana - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Intro page/keyboardd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Intro page\\keyboardd.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Intro page/keyboarrdd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Intro page\\keyboarrdd.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interface/Intro page/keyboard_select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interface\\Intro page\\keyboard_select.png",
+        "smoothed": false,
         "userAdded": true
       }
     ],
